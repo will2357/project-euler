@@ -1,5 +1,4 @@
 require 'euler'
-#require 'rspec/autorun'
 
 describe Euler do
   question = Euler.new(number: 1)
