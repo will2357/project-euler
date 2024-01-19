@@ -5,7 +5,7 @@ task :default => [:run_all]
 desc "Run specific Euler problem (e.g., 'rake run[1]')"
 task :run, [:n] do |t, args|
   e = Euler.new(args.n.to_i)
-  e.question_text
+  e.read_question
 end
 
 desc "Run all Euler problems starting at first unsolved (lib/user_solutions.csv)"
@@ -18,10 +18,10 @@ task :run_all do
   input = STDIN.gets.strip
   do_next = true if (input.nil? || input.empty? || /^[yY]/ =~ input)
 
-  Euler.solutions.each do |n, ans|
+  Euler.solutions.each do |n, _|
     if n.to_i > answered
       e = Euler.new(n)
-      e.question_text
+      e.read_question
       solved = false
       until solved do
         puts "Enter answer: "

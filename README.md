@@ -6,9 +6,9 @@ This repo is not for everyone - most people will find it completely unnecessary.
 Everything was completely taken from [Project Euler](https://projecteuler.net/).
 100% of all credit goes to those fine folks.
 
-For decades, I have worked in vim within tmux in a terminal either on a small
+For decades, I have worked in vim within tmux in a terminal - either on a small
 laptop or a headless server. Submitting answers through a website just isn't
-for me. I find it to be a clunkt waste of time.
+for me. I find it to be a clunky waste of time.
 
 For the one other human being who is wacky like me, feel free to clone this
 repo, install the required version of Ruby declared in `.ruby-version`
@@ -52,9 +52,9 @@ of a terminal. If you use an IDE, or are new to coding, just use the
 [Project Euler website](https://projecteuler.net/). It keeps track of your
 ranking too. I think...
 
-Mostly I did this to reacquaint myself with a barebones Ruby app after years of
-primarily building in [Clojure](https://clojure.org/) (a lovely, but
-nearly-completely unsupported fringe language - highy not recommended for
-commercial/production purposes - you'll just end up using Java libs) and
-[Golang](https://go.dev/) (fantastic for certain use cases -  wouldn't call it
-the most agile language but gosh I love it).
+Mostly I did this to reacquaint myself with a barebones (i.e., not Rails) Ruby
+app after years of primarily building in [Clojure](https://clojure.org/)
+(a lovely, but nearly-completely unsupported fringe language - highy not
+recommended for commercial/production purposes - you'll just end up using Java
+libs) and [Golang](https://go.dev/) (fantastic for certain use cases -  wouldn't
+call it the most agile language, but gosh I love it).

@@ -23,10 +23,25 @@ class Euler
     @question ||= Net::HTTP.get(uri)
   end
 
-  def question_text
-    puts
-    puts(Nokogiri::HTML(self.question).text.gsub(/\$/,'').blue)
-    puts("From: https://projecteuler.net/problem=#{@number}".magenta)
+  def question_html
+    Nokogiri::HTML(self.question)
+  end
+
+  def question_plain_text
+    self.question_html.text
+  end
+
+  def question_clean_text
+    self.question_plain_text.gsub(/\$/,'').gsub(/\\dots/,'...')
+  end
+
+  def question_url
+    "https://projecteuler.net/problem=#{@number}"
+  end
+
+  def read_question
+    puts("\n#{self.question_clean_text.blue}")
+    puts("From: #{self.question_url}".magenta)
   end
 
   def solution
