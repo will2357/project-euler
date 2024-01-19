@@ -1,7 +1,7 @@
 require 'euler'
 
 describe Euler do
-  body = "<p>If we list all the natural....</p>\n<p>Find the sum ....</p>\n"
+  body = "<p>If we list all the naturals $1$....</p>\n<p>Find sum ....</p>\n"
   e1 = Euler.new(1)
   s1 = 123.0
   e10 = Euler.new(10)
@@ -38,6 +38,30 @@ describe Euler do
       expect(e1.solved).to eq(true)
       expect(e10.check_user_answer).to eq(true)
       expect(e10.solved).to eq(true)
+    end
+
+    it "can contain html tags" do
+      expect(e1.question).to match(/\<p\>.*\<\/p\>/)
+    end
+
+    it "can be a Nokogiri doc" do
+      expect(e1.question_tags.class).to eq(Nokogiri::HTML4::Document)
+    end
+
+    it "can be plain-ish text" do
+      expect(e1.question_plain_text).not_to match(/\<p\>.*\<\/p\>/)
+      expect(e1.question_plain_text).to match(/\$/) # Mathjax
+    end
+
+    it "can sub out some basic Mathjax" do
+      expect(e1.question_plain_text).not_to match(/\<p\>.*\<\/p\>/)
+      expect(e1.question_clean_text).not_to match(/\$/)
+    end
+
+    it "can read the clean-ish text with the URL" do
+      expect(e1).to receive(:question_clean_text).and_return("")
+      expect(e1).to receive(:question_url).and_return("")
+      expect {e1.read_question}.to output("\n\e[0;35;49mFrom: \e[0m\n").to_stdout
     end
   end
 end

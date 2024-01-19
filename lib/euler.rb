@@ -23,12 +23,12 @@ class Euler
     @question ||= Net::HTTP.get(uri)
   end
 
-  def question_html
+  def question_tags
     Nokogiri::HTML(self.question)
   end
 
   def question_plain_text
-    self.question_html.text
+    self.question_tags.text
   end
 
   def question_clean_text
