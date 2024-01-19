@@ -22,8 +22,9 @@ class Euler::Exercise::Runner
         # Add rspec matcher?
         puts "Project Euler exercise #{n} answered correctly!".green # TODO: Suppress use rspec
       else
+        puts "\n\nError on exercise #{n}:".red
         k.euler.read_question
-        raise IncorrectEulerAnswer.new("\nEdit the 'my_solution' method in '#{f}'")
+        raise IncorrectEulerAnswer.new("\n\nEdit the 'my_solution' method in '#{f}'\n")
       end
     end
   rescue => err
