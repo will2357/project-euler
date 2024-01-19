@@ -1,6 +1,7 @@
 require 'net/http'
 require 'csv'
 require 'nokogiri'
+require 'colorize'
 require 'pry-nav' # TODO: remove me
 
 class Euler
@@ -23,8 +24,9 @@ class Euler
   end
 
   def question_text
-    puts Nokogiri::HTML(self.question).text
-    puts "\nFrom the following URI: https://projecteuler.net/problem=#{@number}"
+    puts
+    puts(Nokogiri::HTML(self.question).text.gsub(/\$/,'').blue)
+    puts("From: https://projecteuler.net/problem=#{@number}".magenta)
   end
 
   def solution
@@ -32,12 +34,11 @@ class Euler
   end
 
   def submit_answer!(answer)
-    @answer = answer
+    @answer = answer.to_f
     check_user_answer
   end
 
   def check_user_answer
-    printf("User answer: '%s'\n", @answer) unless Euler.test?
     @solved = (@answer == self.solution)
     if @solved
       Euler.user_solutions[@number] = true
@@ -65,7 +66,7 @@ class Euler
   end
 
   def self.save_user_solutions!
-    CSV.open('./user_solutions.csv', 'w') do |csv|
+    CSV.open("./#{Euler.root_dir}/user_solutions.csv", 'w') do |csv|
       Euler.user_solutions.each do |solution|
         csv << solution
       end
