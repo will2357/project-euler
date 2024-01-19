@@ -15,7 +15,7 @@ class Euler
   def initialize(number)
     @number = number.to_s
     @uri = URI("https://projecteuler.net/minimal=#{@number}")
-    @html_filename = "./lib/euler/html/exercise_#{@number.rjust(5, "0")}.html"
+    @html_filename = "#{Euler.root_dir}/euler/html/exercise_#{@number.rjust(5, "0")}.html"
     @answer = nil
     @solved = false
   end
@@ -27,7 +27,7 @@ class Euler
                     html = Net::HTTP.get(uri)
                     File.open(@html_filename, 'w') do |f|
                       f.write(html)
-                    end
+                    end unless Euler.test?
                     html
                   end
   end
