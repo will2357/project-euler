@@ -9,18 +9,27 @@ class Euler
   @@user_solutions = nil
   @@root_dir = nil
 
-  attr_reader :number, :question, :uri, :solution, :solved
+  attr_reader :number, :question, :uri, :solution, :solved, :html_filename
   attr_accessor :answer
 
   def initialize(number)
     @number = number.to_s
     @uri = URI("https://projecteuler.net/minimal=#{@number}")
+    @html_filename = "./lib/euler/html/exercise_#{@number.rjust(5, "0")}.html"
     @answer = nil
     @solved = false
   end
 
   def question
-    @question ||= Net::HTTP.get(uri)
+    @question ||= if File.file?(@html_filename) && !File.zero?(@html_filename)
+                    File.open(@html_filename).read
+                  else
+                    html = Net::HTTP.get(uri)
+                    File.open(@html_filename, 'w') do |f|
+                      f.write(html)
+                    end
+                    html
+                  end
   end
 
   def question_tags

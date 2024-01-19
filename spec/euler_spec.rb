@@ -6,6 +6,8 @@ describe Euler do
   s1 = 123.0
   e10 = Euler.new(10)
   s10 = 123456789123456789123456789.1234567891234 # Note precision is less
+  e_not_local = Euler.new(10_000)
+
 
   before(:all) do
     stub_request(:get, /projecteuler.net\/minimal/).
@@ -14,12 +16,15 @@ describe Euler do
   end
 
   context "get the first question and solution" do
-    it "gets the first question from projecteuler.net" do
+    it "gets the first question from local, the 10000th from projecteuler.net" do
       expect(e1.number).to eq("1")
+      expect(e1.question).to match(/all the natural/)
+
+      expect(e_not_local.number).to eq("10000")
       expect(Net::HTTP).to receive(:get).
-        with(URI("https://projecteuler.net/minimal=#{e1.number}")).
+        with(URI("https://projecteuler.net/minimal=#{e_not_local.number}")).
         and_return(body)
-      expect(e1.question).to eq(body)
+      expect(e_not_local.question).to match(/all the natural/)
     end
 
     it "reads the local solutions" do
