@@ -37,7 +37,7 @@ class Euler
   end
 
   def check_user_answer
-    printf("User answer: '%s'\n", @answer)
+    printf("User answer: '%s'\n", @answer) unless Euler.test?
     @solved = (@answer == self.solution)
     if @solved
       Euler.user_solutions[@number] = true
@@ -48,8 +48,12 @@ class Euler
     @solved
   end
 
+  def self.test?
+    ENV["RSPEC_ENV"] == "test"
+  end
+
   def self.root_dir
-    @@root_dir ||= (ENV["RSPEC_ENV"] == "test" ? "spec" : "lib")
+    @@root_dir ||= (Euler.test? ? "spec" : "lib")
   end
 
   def self.solutions
@@ -65,6 +69,6 @@ class Euler
       Euler.user_solutions.each do |solution|
         csv << solution
       end
-    end
+    end unless Euler.test?
   end
 end
