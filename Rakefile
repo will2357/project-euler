@@ -1,4 +1,5 @@
 require './lib/euler'
+require './rake/setup'
 
 task :default => [:run_all]
 
@@ -10,6 +11,8 @@ end
 
 desc "Run all Euler problems starting at first unsolved (lib/user_solutions.csv)"
 task :run_all do
+  # TODO: Add functionality to skip questions, find first unsolved, and save
+  # individual questions
   total = Euler.solutions.count
   answered = Euler.user_solutions.count
   puts("Solved #{answered}/#{total}".green)
