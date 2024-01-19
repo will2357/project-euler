@@ -50,7 +50,7 @@ class Euler
 
   def read_question
     puts("\n#{self.question_clean_text.blue}")
-    puts("From: #{self.question_url}".magenta)
+    puts("Source: #{self.question_url}".magenta)
   end
 
   def solution
@@ -62,8 +62,12 @@ class Euler
     check_user_answer
   end
 
+  def answer
+    @answer ||= (Euler.user_solutions[@number] ? self.solution : nil)
+  end
+
   def check_user_answer
-    @solved = (@answer == self.solution)
+    @solved = (self.answer == self.solution)
     if @solved
       Euler.user_solutions[@number] = true
       Euler.save_user_solutions!

@@ -66,7 +66,7 @@ describe Euler do
     it "can read the clean-ish text with the URL" do
       expect(e1).to receive(:question_clean_text).and_return("")
       expect(e1).to receive(:question_url).and_return("")
-      expect {e1.read_question}.to output("\n\e[0;35;49mFrom: \e[0m\n").to_stdout
+      expect {e1.read_question}.to output("\n\e[0;35;49mSource: \e[0m\n").to_stdout
     end
   end
 end
