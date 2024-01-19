@@ -69,19 +69,19 @@ class Euler
   end
 
   def self.root_dir
-    @@root_dir ||= (Euler.test? ? "spec" : "lib")
+    @@root_dir ||= (Euler.test? ? "./spec" : "./lib")
   end
 
   def self.solutions
-    @@solutions ||= CSV.read("./#{Euler.root_dir}/solutions.csv").to_h
+    @@solutions ||= CSV.read("#{Euler.root_dir}/solutions.csv").to_h
   end
 
   def self.user_solutions
-    @@user_solutions ||= CSV.read("./#{Euler.root_dir}/user_solutions.csv").to_h
+    @@user_solutions ||= CSV.read("#{Euler.root_dir}/user_solutions.csv").to_h
   end
 
   def self.save_user_solutions!
-    CSV.open("./#{Euler.root_dir}/user_solutions.csv", 'w') do |csv|
+    CSV.open("#{Euler.root_dir}/user_solutions.csv", 'w') do |csv|
       Euler.user_solutions.each do |solution|
         csv << solution
       end
