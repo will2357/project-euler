@@ -1,11 +1,9 @@
 require './lib/euler/exercise/main'
 require 'set'
-#require 'rspec'
 
 class IncorrectEulerAnswer < StandardError;end
 
 class Euler::Exercise::Runner
-  #include ::RSpec::Matchers #TODO: Think of a nice way to run these with rspec? or just use rake?
   attr_reader :files
 
   def initialize
@@ -20,10 +18,7 @@ class Euler::Exercise::Runner
       k = klass.new
       correct = k.euler.submit_answer!(k.my_solution)
       if correct
-        #binding.pry
-        # Add rspec matcher?
-        # expect(true)
-        puts "Project Euler exercise #{n} answered correctly!".green # TODO: Suppress use rspec
+        puts "Project Euler exercise #{n} answered correctly!".green
       else
         puts "\n\nError on exercise #{n}:".red
         k.euler.read_question
