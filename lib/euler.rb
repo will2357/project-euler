@@ -59,13 +59,17 @@ class Euler
     @solution ||= parse_and_convert(Euler.solutions[@number])
   end
 
-  def parse_and_convert(answer)
-    answer.strip! if answer.respond_to?(:strip!)
+  def parse_and_convert(value)
+    value.strip! if value.respond_to?(:strip!)
 
-    if (answer.class == String) && answer[/[a-zA-Z]/]
-      answer
+    if (value.class == String) && value[/[a-zA-Z]/]
+      value[/^\d+[eE]\d+/] ? value.to_f : value
+    elsif value.to_s[/,/]
+      value.to_s.split(",").map do |v|
+        parse_and_convert(v)
+      end
     else
-      @@calculator.evaluate(answer)
+      @@calculator.evaluate(value)
     end
   end
 
@@ -102,8 +106,20 @@ class Euler
     @@root_dir ||= (Euler.test? ? "./spec" : "./lib")
   end
 
+  # Needed due to some solutions being a comma separated list
+  def self.space_separated_to_hash(filename)
+    res = {}
+    File.open(filename, "r") do |f|
+      f.each_line do |line|
+        n, a = line.split(" ")
+        res[n[/\d*/]] = a
+      end
+    end
+    res
+  end
+
   def self.solutions
-    @@solutions ||= CSV.read("#{Euler.root_dir}/solutions.csv").to_h
+    @@solutions ||= Euler.space_separated_to_hash("#{Euler.root_dir}/solutions.csv")
   end
 
   def self.user_solutions

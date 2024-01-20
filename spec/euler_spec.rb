@@ -79,8 +79,8 @@ describe Euler do
       "4" => "FOO",
       "5" => 1.0/9.0,
       "6" => 0.123,
-      "7" => 123.4567890,
-      "8" => 10000000000.0,
+      "7" => "123,456,12.12",
+      "8" => 1e10,
       "9" => 1000000000000001.0,
       "10" => 123456789012345678901234567890.12345678901234567890,
     }
@@ -100,8 +100,8 @@ describe Euler do
       "4" => "FOO",
       "5" => "1/9",
       "6" => 0.123,
-      "7" => 123.4567890,
-      "8" => 10000000000,
+      "7" => "123.0,456.0,12.120",
+      "8" => 1E10,
       "9" => 1000000000000001,
       "10" => 123456789012345678901234567890.12345678901234567890,
     }
@@ -110,6 +110,7 @@ describe Euler do
       it "returns true if equal-ish to #{v}" do
         e = Euler.new(n)
         resp = e.submit!(v)
+        binding.pry if !resp
         expect(resp).to eq(true)
       end
     end
@@ -121,7 +122,7 @@ describe Euler do
       "4" => "",
       "5" => 1/9, # (1/9) => 0
       "6" => 0.1,
-      "7" => 123.4,
+      "7" => "123,456,12",
       "8" => false,
       "9" => 1000000000000000,
       "10" => 123456789123456789123456789.1,
@@ -131,6 +132,7 @@ describe Euler do
       it "returns false if not equal-ish to #{v}" do
         e = Euler.new(n)
         resp = e.submit!(v)
+        binding.pry if resp
         expect(resp).to eq(false)
       end
     end
@@ -142,7 +144,7 @@ describe Euler do
       "4" => 0,
       "5" => 1.0, # " 1/9".to_f => 1.0
       "6" => 0.12,
-      "7" => 123.45678,
+      "7" => "123,456",
       "8" => false,
       "9" => 1000000000000000.0,
       "10" => 123456789123456789123456789.1,
@@ -152,6 +154,7 @@ describe Euler do
       it "returns false if not equal-ish to #{v}" do
         e = Euler.new(n)
         resp = e.submit!(v)
+        binding.pry if resp
         expect(resp).to eq(false)
       end
     end

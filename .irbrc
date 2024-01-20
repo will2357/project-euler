@@ -1,2 +1,2 @@
-require './lib/euler/exercise/runner'
-r=Euler::Exercise::Runner.new
+#require './lib/euler/exercise/runner'
+#r=Euler::Exercise::Runner.new
