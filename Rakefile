@@ -29,7 +29,7 @@ task :run_all do
       until solved do
         puts "Enter answer: "
         user_answer = STDIN.gets.strip.to_f
-        correct = e.submit_answer!(user_answer)
+        correct = e.submit!(user_answer)
 
         if correct
           puts("The answer '#{user_answer}' is correct.\n".green)

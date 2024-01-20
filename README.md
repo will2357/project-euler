@@ -45,7 +45,7 @@ will tell you if it's correct, it will save the sucess locally
 
 For those of you who are more Ruby-oriented, run
 ```
-bundle exec rspec
+bundle exec ruby run.rb
 ```
 which will again run the excersizes in order.  Ensure that the predefined
 `my_solution` function returns the correct solution in anyway you'd like to get

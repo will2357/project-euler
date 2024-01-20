@@ -2,15 +2,17 @@ require 'net/http'
 require 'csv'
 require 'nokogiri'
 require 'colorize'
+require 'dentaku'
 require 'pry-nav' # TODO: remove me
 
 class Euler
   @@solutions = nil
   @@user_solutions = nil
   @@root_dir = nil
+  @@calculator = Dentaku::Calculator.new
 
   attr_reader :number, :question, :uri, :solution, :solved, :html_filename
-  attr_accessor :answer
+  attr_accessor :answer, :calculator
 
   def initialize(number)
     @number = number.to_s
@@ -54,11 +56,21 @@ class Euler
   end
 
   def solution
-    @solution ||= Euler.solutions[@number].to_f
+    @solution ||= parse_and_convert(Euler.solutions[@number])
   end
 
-  def submit_answer!(answer)
-    @answer = answer.to_f
+  def parse_and_convert(answer)
+    answer.strip! if answer.respond_to?(:strip!)
+
+    if (answer.class == String) && answer[/[a-zA-Z]/]
+      answer
+    else
+      @@calculator.evaluate(answer)
+    end
+  end
+
+  def submit!(value)
+    @answer = parse_and_convert(value)
     check_user_answer
   end
 
@@ -66,8 +78,13 @@ class Euler
     @answer ||= (Euler.user_solutions[@number] ? self.solution : nil)
   end
 
-  def check_user_answer
-    @solved = (self.answer == self.solution)
+  def check_user_answer(value=@answer)
+    a = value
+    s = self.solution
+    # Loss of precision is intentional - Float up to 16
+    a = a.to_f if a.class.ancestors.include?(Numeric)
+    s = s.to_f if s.class.ancestors.include?(Numeric)
+    @solved = (a == s)
     if @solved
       Euler.user_solutions[@number] = true
       Euler.save_user_solutions!

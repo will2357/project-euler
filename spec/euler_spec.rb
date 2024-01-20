@@ -5,7 +5,7 @@ describe Euler do
   e1 = Euler.new(1)
   s1 = 123.0
   e10 = Euler.new(10)
-  s10 = 123456789123456789123456789.1234567891234 # Note precision is less
+  s10 = 123456789012345678901234567890.1234567890 # Note precision is less, but let it pass
   e_not_local = Euler.new(10_000)
 
 
@@ -67,6 +67,93 @@ describe Euler do
       expect(e1).to receive(:question_clean_text).and_return("")
       expect(e1).to receive(:question_url).and_return("")
       expect {e1.read_question}.to output("\n\e[0;35;49mSource: \e[0m\n").to_stdout
+    end
+  end
+
+  context "properly checks ints, floats, fractions, negatives, and strings" do
+
+    expected_successes_v1 = {
+      "1" => 123.0,
+      "2" => -456.0,
+      "3" => -789.123,
+      "4" => "FOO",
+      "5" => 1.0/9.0,
+      "6" => 0.123,
+      "7" => 123.4567890,
+      "8" => 10000000000.0,
+      "9" => 1000000000000001.0,
+      "10" => 123456789012345678901234567890.12345678901234567890,
+    }
+
+    expected_successes_v1.each do |n, v|
+      it "returns true if equal-ish to #{v}" do
+        e = Euler.new(n)
+        resp = e.submit!(v)
+        expect(resp).to eq(true)
+      end
+    end
+
+    expected_successes_v2 = {
+      "1" => 123,
+      "2" => -456,
+      "3" => -789.123,
+      "4" => "FOO",
+      "5" => "1/9",
+      "6" => 0.123,
+      "7" => 123.4567890,
+      "8" => 10000000000,
+      "9" => 1000000000000001,
+      "10" => 123456789012345678901234567890.12345678901234567890,
+    }
+
+    expected_successes_v2.each do |n, v|
+      it "returns true if equal-ish to #{v}" do
+        e = Euler.new(n)
+        resp = e.submit!(v)
+        expect(resp).to eq(true)
+      end
+    end
+
+    expected_failures_v1 = {
+      "1" => nil,
+      "2" => 456,
+      "3" => 789.123,
+      "4" => "",
+      "5" => 1/9, # (1/9) => 0
+      "6" => 0.1,
+      "7" => 123.4,
+      "8" => false,
+      "9" => 1000000000000000,
+      "10" => 123456789123456789123456789.1,
+    }
+
+    expected_failures_v1.each do |n, v|
+      it "returns false if not equal-ish to #{v}" do
+        e = Euler.new(n)
+        resp = e.submit!(v)
+        expect(resp).to eq(false)
+      end
+    end
+
+    expected_failures_v2 = {
+      "1" => nil,
+      "2" => 456,
+      "3" => 789.123,
+      "4" => 0,
+      "5" => 1.0, # " 1/9".to_f => 1.0
+      "6" => 0.12,
+      "7" => 123.45678,
+      "8" => false,
+      "9" => 1000000000000000.0,
+      "10" => 123456789123456789123456789.1,
+    }
+
+    expected_failures_v2.each do |n, v|
+      it "returns false if not equal-ish to #{v}" do
+        e = Euler.new(n)
+        resp = e.submit!(v)
+        expect(resp).to eq(false)
+      end
     end
   end
 end

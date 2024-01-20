@@ -16,7 +16,7 @@ class Euler::Exercise::Runner
       n = f[/\d{5}/]
       klass = Object.const_get("Euler::Exercise::Number#{n}")
       k = klass.new
-      correct = k.euler.submit_answer!(k.my_solution)
+      correct = k.euler.submit!(k.my_solution)
       if correct
         puts "Project Euler exercise #{n} answered correctly!".green
       else
