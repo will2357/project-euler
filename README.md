@@ -10,14 +10,15 @@ For decades, I have worked in vim within tmux in a terminal - either on a small
 laptop or a headless server. Submitting answers through a website just isn't
 for me. I find it to be a clunky waste of time.
 
-But mostly I did this to reacquaint myself with a barebones (i.e., not Rails)
+But mostly I did this to reacquaint myself with a bare-bones (i.e., not Rails)
 Ruby app after years of primarily building in [Clojure](https://clojure.org/)
-(a lovely, but nearly-completely unsupported fringe language - highy not
+(a lovely, but nearly-completely unsupported fringe language - highly not
 recommended for commercial/production purposes - you'll just end up using Java
-libs) and [Golang](https://go.dev/) (fantastic for certain use cases -  wouldn't
+libs) and [Golang](https://go.dev/) (fantastic for certain use cases - wouldn't
 call it the most agile language, but gosh I love it).
 
 ## Usage
+
 For the one other human being who is wacky like me, feel free to clone this
 repo, install the required version of Ruby declared in `.ruby-version`
 (in my opinion, [rbenv](https://github.com/rbenv/rbenv) is great for that), then
@@ -26,11 +27,32 @@ repo, install the required version of Ruby declared in `.ruby-version`
 gem install bundler
 bundle install
 ```
-Next,
+
+To solve the questions in Ruby, run
 ```
-bundle exec rake -t
+bundle exec ruby run.rb
 ```
-will show you the available rake tasks. The default,
+This will run the exercises in order. Ensure that the predefined `my_solution`
+function returns the correct solution in any fashion you'd like to get
+the correct answer.
+
+### Solution Types
+This uses Ruby floats so the precision is limited to about 16 significant
+figures which could result in a false positive for a few questions. Also, comma
+separated values are supported (return a string) when needed, as are full text
+answers. If you're stuck, just return the string 'SKIP' (or use the `__SKIP__`
+variable) to go on to the next question.
+
+
+### Alternate Usage
+
+Alternately, you can submit answers through the CLI by using the included rake
+tasks. To view all available, rake tasks, run
+```
+bundle exec rake -T
+```
+
+The main and default task is:
 ```
 bundle exec rake run_all
 ```
@@ -38,21 +60,11 @@ or simply
 ```
 bundle exec rake
 ```
-will show all (well only 150 or so as of this writing) of the Project Euler
-questions in order. All you have to do is submit your answer at the prompt, it
-will tell you if it's correct, it will save the sucess locally
-(./lib/user_solutions.csv), then disply the next question.
+This will show all of the Project Euler questions in order. All you have to do
+is submit your answer (or 'SKIP') at the prompt, it will tell you if it's
+correct, save the success locally (./lib/user_solutions.csv), then display the
+next question.
 
-For those of you who are more Ruby-oriented, run
-```
-bundle exec ruby run.rb
-```
-which will again run the excersizes in order.  Ensure that the predefined
-`my_solution` function returns the correct solution in anyway you'd like to get
-the test to pass.
-
-NB: If you're stuck, just have the `my_solution` function return false to go on to the next
-question.
 
 ## Disclaimer
 Again, this is useless for ~99.9+% of people - especially those who don't live

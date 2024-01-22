@@ -44,24 +44,29 @@ class Euler
     self.question_tags.text
   end
 
-  # TODO: Convert/replace more Mathjax/Latex
   def question_clean_text(text=self.question_plain_text)
-    #subs = {// => ''}
-    text.gsub(/\$/,' ').
-      gsub(/\\dots/,'...').
-      gsub(/\\cdots/,'...').
-      gsub(/\\times/,'x').
-      gsub(/\\,/,',').
-      gsub(/\\lt/,'<').
-      gsub(/\\gt/,'>').
-      gsub(/\\le/,'<=').
-      gsub(/\\ge/,'>=').
-      gsub(/\\ne/,'!=').
-      gsub(/\\colon/,':').
-      gsub(/\\to/,'->').
-      gsub(/\&/,' ').
-      gsub(/\\\\/, ' ')
+    substitutions = {
+      /\$/      => ' ',
+      /\\dots/  => '...',
+      /\\cdots/ => '...',
+      /\\times/ => 'x',
+      /\\,/     => ',',
+      /\\lt/    => '<',
+      /\\gt/    => '>',
+      /\\le/    => '<=',
+      /\\ge/    => '>=',
+      /\\ne/    => '!=',
+      /\\colon/ => ':',
+      /\\to/    => '->',
+      /\&/      => ' ',
+      /\\\\/    => ' '
+    }
 
+    substitutions.each do |regex, str|
+      text.gsub!(regex, str)
+    end
+
+    text
   end
 
   def question_url
