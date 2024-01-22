@@ -7,7 +7,7 @@ class Euler::Exercise::Number00290 < Euler::Exercise::Main
 =begin
 Problem 290:
 
-How many integers 0 \le n \lt 10^{18} have the property that the sum of the digits of n equals the sum of digits of 137n?
+How many integers  0 <= n < 10^{18}  have the property that the sum of the digits of  n  equals the sum of digits of  137n ?
 
 Source: https://projecteuler.net/problem=290
 =end

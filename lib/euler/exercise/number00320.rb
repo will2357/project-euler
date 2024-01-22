@@ -7,13 +7,13 @@ class Euler::Exercise::Number00320 < Euler::Exercise::Main
 =begin
 Problem 320:
 
-Let N(i) be the smallest integer n such that n! is divisible by (i!)^{1234567890}
+Let  N(i)  be the smallest integer  n  such that  n!  is divisible by  (i!)^{1234567890} 
 
-Let S(u)=\sum N(i) for 10 \le i \le u.
+Let  S(u)=\sum N(i)  for  10 <= i <= u .
 
-S(1000)=614538266565663.
+ S(1000)=614538266565663 .
 
-Find S(1\,000\,000) \bmod 10^{18}.
+Find  S(1,000,000) \bmod 10^{18} .
 
 Source: https://projecteuler.net/problem=320
 =end

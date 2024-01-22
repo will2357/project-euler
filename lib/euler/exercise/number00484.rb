@@ -8,13 +8,13 @@ class Euler::Exercise::Number00484 < Euler::Exercise::Main
 Problem 484:
 
 The arithmetic derivative is defined by
-p^\prime = 1 for any prime p
-(ab)^\prime = a^\prime b + ab^\prime for all integers a, b (Leibniz rule)
-For example, 20^\prime = 24.
+ p^\prime = 1  for any prime  p 
+ (ab)^\prime = a^\prime b + ab^\prime  for all integers  a, b  (Leibniz rule)
+For example,  20^\prime = 24 .
 
-Find \sum \operatorname{\mathbf{gcd}}(k,k^\prime) for 1 \lt k \le 5 \times 10^{15}.
+Find  \sum \operatorname{\mathbf{gcd}}(k,k^\prime)  for  1 < k <= 5 x 10^{15} .
 
-Note: \operatorname{\mathbf{gcd}}(x,y) denotes the greatest common divisor of x and y.
+Note:  \operatorname{\mathbf{gcd}}(x,y)  denotes the greatest common divisor of  x  and  y .
 
 Source: https://projecteuler.net/problem=484
 =end

@@ -7,9 +7,9 @@ class Euler::Exercise::Number00222 < Euler::Exercise::Main
 =begin
 Problem 222:
 
-What is the length of the shortest pipe, of internal radius \pu{50 mm}, that can fully contain 21 balls of radii \pu{30 mm}, \pu{31 mm}, ..., \pu{50 mm}?
+What is the length of the shortest pipe, of internal radius  \pu{50 mm} , that can fully contain  21  balls of radii  \pu{30 mm}, \pu{31 mm}, ..., \pu{50 mm} ?
 
-Give your answer in micrometres (\pu{10^{-6} m}) rounded to the nearest integer.
+Give your answer in micrometres ( \pu{10^{-6} m} ) rounded to the nearest integer.
 
 Source: https://projecteuler.net/problem=222
 =end

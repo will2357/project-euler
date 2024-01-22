@@ -7,7 +7,7 @@ class Euler::Exercise::Number00142 < Euler::Exercise::Main
 =begin
 Problem 142:
 
-Find the smallest x + y + z with integers x \gt y \gt z \gt 0 such that x + y, x - y, x + z, x - z, y + z, y - z are all perfect squares.
+Find the smallest  x + y + z  with integers  x > y > z > 0  such that  x + y ,  x - y ,  x + z ,  x - z ,  y + z ,  y - z  are all perfect squares.
 
 Source: https://projecteuler.net/problem=142
 =end

@@ -7,8 +7,8 @@ class Euler::Exercise::Number00063 < Euler::Exercise::Main
 =begin
 Problem 63:
 
-The 5-digit number, 16807=7^5, is also a fifth power. Similarly, the 9-digit number, 134217728=8^9, is a ninth power.
-How many n-digit positive integers exist which are also an nth power?
+The  5 -digit number,  16807=7^5 , is also a fifth power. Similarly, the  9 -digit number,  134217728=8^9 , is a ninth power.
+How many  n -digit positive integers exist which are also an  n th power?
 
 Source: https://projecteuler.net/problem=63
 =end

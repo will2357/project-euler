@@ -7,17 +7,17 @@ class Euler::Exercise::Number00530 < Euler::Exercise::Main
 =begin
 Problem 530:
 
-Every divisor d of a number n has a complementary divisor n/d.
+Every divisor  d  of a number  n  has a complementary divisor  n/d .
 
-Let f(n) be the sum of the greatest common divisor of d and n/d over all positive divisors d of n, that is
-f(n)=\displaystyle\sum_{d\mid n}\gcd(d,\frac n d).
+Let  f(n)  be the sum of the greatest common divisor of  d  and  n/d  over all positive divisors  d  of  n , that is
+ f(n)=\displaystyle\sum_{d\mid n}\gcd(d,\frac n d) .
 
-Let F be the summatory function of f, that is
-F(k)=\displaystyle\sum_{n=1}^k f(n).
+Let  F  be the summatory function of  f , that is
+ F(k)=\displaystyle\sum_{n=1}^k f(n) .
 
-You are given that F(10)=32 and F(1000)=12776.
+You are given that  F(10)=32  and  F(1000)=12776 .
 
-Find F(10^{15}).
+Find  F(10^{15}) .
 
 Source: https://projecteuler.net/problem=530
 =end

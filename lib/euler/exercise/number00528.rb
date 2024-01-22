@@ -7,11 +7,11 @@ class Euler::Exercise::Number00528 < Euler::Exercise::Main
 =begin
 Problem 528:
 
-Let S(n, k, b) represent the number of valid solutions to x_1 + x_2 + \cdots + x_k \le n, where 0 \le x_m \le b^m for all 1 \le m \le k.
+Let  S(n, k, b)  represent the number of valid solutions to  x_1 + x_2 + ... + x_k <= n , where  0 <= x_m <= b^m  for all  1 <= m <= k .
 
-For example, S(14,3,2) = 135, S(200,5,3) = 12949440, and S(1000,10,5) \bmod 1\,000\,000\,007 = 624839075.
+For example,  S(14,3,2) = 135 ,  S(200,5,3) = 12949440 , and  S(1000,10,5) \bmod 1,000,000,007 = 624839075 .
 
-Find (\sum_{10 \le k \le 15} S(10^k, k, k)) \bmod 1\,000\,000\,007.
+Find  (\sum_{10 <= k <= 15} S(10^k, k, k)) \bmod 1,000,000,007 .
 
 Source: https://projecteuler.net/problem=528
 =end

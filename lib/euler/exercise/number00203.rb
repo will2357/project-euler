@@ -7,7 +7,7 @@ class Euler::Exercise::Number00203 < Euler::Exercise::Main
 =begin
 Problem 203:
 
-The binomial coefficients \displaystyle \binom n k can be arranged in triangular form, Pascal's triangle, like this:
+The binomial coefficients  \displaystyle \binom n k  can be arranged in triangular form, Pascal's triangle, like this:
 
 111121133114641151010511615201561172135352171
 .........

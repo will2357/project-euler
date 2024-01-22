@@ -7,12 +7,12 @@ class Euler::Exercise::Number00454 < Euler::Exercise::Main
 =begin
 Problem 454:
 
-In the following equation x, y, and n are positive integers.
-\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{n}
-For a limit L we define F(L) as the number of solutions which satisfy x \lt y \le L.
+In the following equation  x ,  y , and  n  are positive integers.
+  \dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{n}  
+For a limit  L  we define  F(L)  as the number of solutions which satisfy  x < y <= L .
 
-We can verify that F(15) = 4 and F(1000) = 1069.
-Find F(10^{12}).
+We can verify that  F(15) = 4  and  F(1000) = 1069 .
+Find  F(10^{12}) .
 
 Source: https://projecteuler.net/problem=454
 =end

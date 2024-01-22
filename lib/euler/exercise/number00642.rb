@@ -7,10 +7,10 @@ class Euler::Exercise::Number00642 < Euler::Exercise::Main
 =begin
 Problem 642:
 
-Let f(n) be the largest prime factor of n and \displaystyle F(n) = \sum_{i=2}^n f(i).
-For example F(10)=32, F(100)=1915 and F(10000)=10118280.
+Let  f(n)  be the largest prime factor of  n  and  \displaystyle F(n) = \sum_{i=2}^n f(i) .
+For example  F(10)=32 ,  F(100)=1915  and  F(10000)=10118280 .
 
-Find F(201820182018). Give your answer modulus 10^9.
+Find  F(201820182018) . Give your answer modulus  10^9 .
 
 Source: https://projecteuler.net/problem=642
 =end

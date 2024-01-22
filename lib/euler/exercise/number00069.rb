@@ -7,12 +7,12 @@ class Euler::Exercise::Number00069 < Euler::Exercise::Main
 =begin
 Problem 69:
 
-Euler's totient function, \phi(n) [sometimes called the phi function], is defined as the number of positive integers not exceeding n which are relatively prime to n. For example, as 1, 2, 4, 5, 7, and 8, are all less than or equal to nine and relatively prime to nine, \phi(9)=6.
+Euler's totient function,  \phi(n)  [sometimes called the phi function], is defined as the number of positive integers not exceeding  n  which are relatively prime to  n . For example, as  1 ,  2 ,  4 ,  5 ,  7 , and  8 , are all less than or equal to nine and relatively prime to nine,  \phi(9)=6 .
 
-n
+ n 
 Relatively Prime
-\phi(n)
-n/\phi(n)
+ \phi(n) 
+ n/\phi(n) 
 2
 1
 1
@@ -50,8 +50,8 @@ n/\phi(n)
 4
 2.5
 
-It can be seen that n = 6 produces a maximum n/\phi(n) for n\leq 10.
-Find the value of n\leq 1\,000\,000 for which n/\phi(n) is a maximum.
+It can be seen that  n = 6  produces a maximum  n/\phi(n)  for  n<=q 10 .
+Find the value of  n<=q 1,000,000  for which  n/\phi(n)  is a maximum.
 
 Source: https://projecteuler.net/problem=69
 =end

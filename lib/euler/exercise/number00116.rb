@@ -14,7 +14,7 @@ If green tiles are chosen there are three ways.
 
 And if blue tiles are chosen there are two ways.
 
-Assuming that colours cannot be mixed there are 7 + 3 + 2 = 12 ways of replacing the grey tiles in a row measuring five units in length.
+Assuming that colours cannot be mixed there are  7 + 3 + 2 = 12  ways of replacing the grey tiles in a row measuring five units in length.
 How many different ways can the grey tiles in a row measuring fifty units in length be replaced if colours cannot be mixed and at least one coloured tile must be used?
 NOTE: This is related to Problem 117.
 

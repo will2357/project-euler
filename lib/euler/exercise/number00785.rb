@@ -8,14 +8,14 @@ class Euler::Exercise::Number00785 < Euler::Exercise::Main
 Problem 785:
 
 Consider the following Diophantine equation:
-15  (x^2 + y^2 + z^2) = 34  (xy + yz + zx)
-where x, y and z are positive integers.
+  15  (x^2 + y^2 + z^2) = 34  (xy + yz + zx)  
+where  x ,  y  and  z  are positive integers.
 
-Let S(N) be the sum of all solutions, (x,y,z), of this equation such that, 1 \le x \le y \le z \le N and \gcd(x, y, z) = 1.
+Let  S(N)  be the sum of all solutions,  (x,y,z) , of this equation such that,  1 <= x <= y <= z <= N  and  \gcd(x, y, z) = 1 .
 
-For N = 10^2, there are three such solutions - (1, 7, 16), (8, 9, 39), (11, 21, 72). So S(10^2) = 184.
+For  N = 10^2 , there are three such solutions -  (1, 7, 16), (8, 9, 39), (11, 21, 72) . So  S(10^2) = 184 .
 
-Find S(10^9).
+Find  S(10^9) .
 
 Source: https://projecteuler.net/problem=785
 =end

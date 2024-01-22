@@ -19,11 +19,11 @@ The winner is the player who pockets the silver dollar.
 
 A winning configuration is an arrangement of coins on the strip where the first player can force a win no matter what the second player does.
 
-Let W(n,c) be the number of winning configurations for a strip of n squares, c worthless coins and one silver dollar.
+Let  W(n,c)  be the number of winning configurations for a strip of  n  squares,  c  worthless coins and one silver dollar.
 
-You are given that W(10,2) = 324 and W(100,10) = 1514704946113500.
+You are given that  W(10,2) = 324  and  W(100,10) = 1514704946113500 .
 
-Find W(1\,000\,000, 100) modulo the semiprime 1000\,036\,000\,099 (= 1\,000\,003 \cdot 1\,000\,033).
+Find  W(1,000,000, 100)  modulo the semiprime  1000,036,000,099  ( = 1,000,003 \cdot 1,000,033 ).
 
 Source: https://projecteuler.net/problem=344
 =end

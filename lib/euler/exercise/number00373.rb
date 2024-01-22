@@ -10,11 +10,11 @@ Problem 373:
 Every triangle has a circumscribed circle that goes through the three vertices.
 Consider all integer sided triangles for which the radius of the circumscribed circle is integral as well.
 
-Let S(n) be the sum of the radii of the circumscribed circles of all such triangles for which the radius does not exceed n.
+Let  S(n)  be the sum of the radii of the circumscribed circles of all such triangles for which the radius does not exceed  n .
 
-S(100)=4950 and S(1200)=1653605.
+ S(100)=4950  and  S(1200)=1653605 .
 
-Find S(10^7).
+Find  S(10^7) .
 
 Source: https://projecteuler.net/problem=373
 =end

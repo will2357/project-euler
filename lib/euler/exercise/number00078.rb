@@ -7,7 +7,7 @@ class Euler::Exercise::Number00078 < Euler::Exercise::Main
 =begin
 Problem 78:
 
-Let p(n) represent the number of different ways in which n coins can be separated into piles. For example, five coins can be separated into piles in exactly seven different ways, so p(5)=7.
+Let  p(n)  represent the number of different ways in which  n  coins can be separated into piles. For example, five coins can be separated into piles in exactly seven different ways, so  p(5)=7 .
 
 OOOOO
 OOOO   O
@@ -17,7 +17,7 @@ OO   OO   O
 OO   O   O   O
 O   O   O   O   O
 
-Find the least value of n for which p(n) is divisible by one million.
+Find the least value of  n  for which  p(n)  is divisible by one million.
 
 Source: https://projecteuler.net/problem=78
 =end

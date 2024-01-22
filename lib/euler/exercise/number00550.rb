@@ -7,7 +7,7 @@ class Euler::Exercise::Number00550 < Euler::Exercise::Main
 =begin
 Problem 550:
 
-Two players are playing a game, alternating turns. There are k piles of stones.
+Two players are playing a game, alternating turns. There are  k  piles of stones.
 On each turn, a player has to choose a pile and replace it with two piles of stones under the following two conditions:
 
  Both new piles must have a number of stones more than one and less than the number of stones of the original pile.
@@ -15,9 +15,9 @@ On each turn, a player has to choose a pile and replace it with two piles of sto
 
 The first player unable to make a valid move loses.
 
-Let f(n,k) be the number of winning positions for the first player, assuming perfect play, when the game is played with k piles each having between 2 and n stones (inclusively).f(10,5)=40085.
+Let  f(n,k)  be the number of winning positions for the first player, assuming perfect play, when the game is played with  k  piles each having between  2  and  n  stones (inclusively). f(10,5)=40085 .
 
-Find f(10^7,10^{12}).Give your answer modulo 987654321.
+Find  f(10^7,10^{12}) .Give your answer modulo  987654321 .
 
 Source: https://projecteuler.net/problem=550
 =end

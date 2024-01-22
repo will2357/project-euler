@@ -7,7 +7,7 @@ class Euler::Exercise::Number00172 < Euler::Exercise::Main
 =begin
 Problem 172:
 
-How many 18-digit numbers n (without leading zeros) are there such that no digit occurs more than three times in n?
+How many  18 -digit numbers  n  (without leading zeros) are there such that no digit occurs more than three times in  n ?
 
 Source: https://projecteuler.net/problem=172
 =end

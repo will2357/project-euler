@@ -15,16 +15,16 @@ Informally, a graph is rigid if by replacing the vertices with fully rotating hi
 
 The grid graphs embedded in the Euclidean plane are not rigid, as the following animation demonstrates:
 
-However, one can make them rigid by adding diagonal edges to the cells. For example, for the 2\times 3 grid graph, there are 19 ways to make the graph rigid:
+However, one can make them rigid by adding diagonal edges to the cells. For example, for the  2x 3  grid graph, there are  19  ways to make the graph rigid:
 
 Note that for the purposes of this problem, we do not consider changing the orientation of a diagonal edge or adding both diagonal edges to a cell as a different way of making a grid graph rigid.
 
-Let R(m,n) be the number of ways to make the m \times n grid graph rigid. 
-E.g. R(2,3) = 19 and R(5,5) = 23679901.
+Let  R(m,n)  be the number of ways to make the  m x n  grid graph rigid. 
+E.g.  R(2,3) = 19  and  R(5,5) = 23679901 .
 
-Define S(N) as \sum R(i,j) for 1 \leq i, j \leq N.
-E.g. S(5) = 25021721.
-Find S(100), give your answer modulo 1000000033.
+Define  S(N)  as  \sum R(i,j)  for  1 <=q i, j <=q N .
+E.g.  S(5) = 25021721 .
+Find  S(100) , give your answer modulo  1000000033 .
 
 Source: https://projecteuler.net/problem=434
 =end

@@ -9,7 +9,7 @@ Problem 640:
 
 Bob plays a single-player game of chance using two standard 6-sided dice and twelve cards numbered 1 to 12. When the game starts, all cards are placed face up on a table.
 
-Each turn, Bob rolls both dice, getting numbers x and y respectively, each in the range 1,...,6. He must choose amongst three options: turn over card x, card y, or card x+y. (If the chosen card is already face down, it is turned to face up, and vice versa.)
+Each turn, Bob rolls both dice, getting numbers  x  and  y  respectively, each in the range 1,...,6. He must choose amongst three options: turn over card  x , card  y , or card  x+y . (If the chosen card is already face down, it is turned to face up, and vice versa.)
 
 If Bob manages to have all twelve cards face down at the same time, he wins.
 

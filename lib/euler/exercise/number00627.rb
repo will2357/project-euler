@@ -7,13 +7,13 @@ class Euler::Exercise::Number00627 < Euler::Exercise::Main
 =begin
 Problem 627:
 
-Consider the set S of all possible products of n positive integers not exceeding m, that is 
-S=\{ x_1x_2\cdots x_n \mid 1 \le x_1, x_2, ..., x_n \le m \}.
+Consider the set  S  of all possible products of  n  positive integers not exceeding  m , that is 
+ S=\{ x_1x_2... x_n \mid 1 <= x_1, x_2, ..., x_n <= m \} .
 
-Let F(m,n) be the number of the distinct elements of the set S.
-For example, F(9, 2) = 36 and F(30,2)=308.
+Let  F(m,n)  be the number of the distinct elements of the set  S .
+For example,  F(9, 2) = 36  and  F(30,2)=308 .
 
-Find F(30, 10001) \bmod 1\,000\,000\,007.
+Find  F(30, 10001) \bmod 1,000,000,007 .
 
 Source: https://projecteuler.net/problem=627
 =end

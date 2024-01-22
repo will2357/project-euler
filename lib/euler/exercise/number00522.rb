@@ -19,9 +19,9 @@ If the generator were placed on the first floor, then every floor would receive 
 
 To resolve the blackout concerns, Hilbert decided to have a minimal number of floors rewired. To rewire a floor is to change the floor it sends power to. In the sample diagram above, all possible blackouts can be avoided by rewiring the second floor to send power to the first floor instead of the third floor.
 
-Let F(n) be the sum of the minimum number of floor rewirings needed over all possible power-flow arrangements in a hotel of n floors. For example, F(3) = 6, F(8) = 16276736, and F(100) \bmod 135707531 = 84326147.
+Let  F(n)  be the sum of the minimum number of floor rewirings needed over all possible power-flow arrangements in a hotel of  n  floors. For example,  F(3) = 6 ,  F(8) = 16276736 , and  F(100) \bmod 135707531 = 84326147 .
 
-Find F(12344321) \bmod 135707531.
+Find  F(12344321) \bmod 135707531 .
 
 Source: https://projecteuler.net/problem=522
 =end
