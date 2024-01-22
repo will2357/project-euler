@@ -161,4 +161,41 @@ describe Euler do
       end
     end
   end
+
+  context "question_clean_text" do
+    ugly_mathjax = %|
+$1$ \\dots $5
+$1$ \\cdots $5
+2 \\times 3 &= $6
+1\\,2\\,3
+$10\\,001$st prime
+x \\lt y \\gt z
+a \\le b \\ge c
+0 \\ne 1
+1 \\colon 2
+f \\to y
+1 &2 &3
+whatever\\\\endline
+|
+    cleanish_text = %|
+ 1  ...  5
+ 1  ...  5
+2 x 3  =  6
+1,2,3
+ 10,001 st prime
+x < y > z
+a <= b >= c
+0 != 1
+1 : 2
+f -> y
+1  2  3
+whatever endline
+|
+
+    it "converts the raw Mathjax to standard text" do
+
+      expect(e1).to receive(:question_plain_text).and_return(ugly_mathjax)
+      expect(e1.question_clean_text).to eq(cleanish_text)
+    end
+  end
 end

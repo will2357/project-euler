@@ -45,10 +45,9 @@ class Euler
   end
 
   # TODO: Convert/replace more Mathjax/Latex
-  def question_clean_text
+  def question_clean_text(text=self.question_plain_text)
     #subs = {// => ''}
-    self.question_plain_text.
-      gsub(/\$/,' ').
+    text.gsub(/\$/,' ').
       gsub(/\\dots/,'...').
       gsub(/\\cdots/,'...').
       gsub(/\\times/,'x').
@@ -58,7 +57,7 @@ class Euler
       gsub(/\\le/,'<=').
       gsub(/\\ge/,'>=').
       gsub(/\\ne/,'!=').
-      gsub(/&\\colon/,':').
+      gsub(/\\colon/,':').
       gsub(/\\to/,'->').
       gsub(/\&/,' ').
       gsub(/\\\\/, ' ')

@@ -49,8 +49,8 @@ namespace :setup do
     end
   end
 
-  desc "Print clean text for all solved exercises, optionally start at 'n'"
-  task :print_all, [:n_start, :n_stop] do |_, args|
+  desc "Read all solved exercises, optionally start at 'n'"
+  task :read_all, [:n_start, :n_stop] do |_, args|
     n_start = args.n_start.to_i
     n_stop = (args.n_stop || 999999).to_i
 
@@ -62,8 +62,8 @@ namespace :setup do
     end
   end
 
-  desc "Print clean plain text for all solved exercises, optionally start at 'n'"
-  task :print_all_plain, [:n_start, :n_stop] do |_, args|
+  desc "Print clean text for all solved exercises, optionally start at 'n'"
+  task :print_all_clean, [:n_start, :n_stop] do |_, args|
     n_start = args.n_start.to_i
     n_stop = (args.n_stop || 999999).to_i
 
@@ -73,6 +73,22 @@ namespace :setup do
       e = Euler.new(n)
       puts
       puts e.question_clean_text
+      puts e.question_url
+      puts
+    end
+  end
+
+  desc "Print raw text for all solved exercises, optionally start at 'n'"
+  task :print_all_raw, [:n_start, :n_stop] do |_, args|
+    n_start = args.n_start.to_i
+    n_stop = (args.n_stop || 999999).to_i
+
+    Euler.solutions.each do |n, _|
+      n = n.to_i
+      next if ((n < n_start) || (n > n_stop))
+      e = Euler.new(n)
+      puts
+      puts e.question_plain_text
       puts e.question_url
       puts
     end
