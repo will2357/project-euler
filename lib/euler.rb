@@ -48,12 +48,20 @@ class Euler
   def question_clean_text
     #subs = {// => ''}
     self.question_plain_text.
-      gsub(/\$/,'').
+      gsub(/\$/,' ').
       gsub(/\\dots/,'...').
+      gsub(/\\cdots/,'...').
       gsub(/\\times/,'x').
       gsub(/\\,/,',').
       gsub(/\\lt/,'<').
-      gsub(/\\gt/,'>')
+      gsub(/\\gt/,'>').
+      gsub(/\\le/,'<=').
+      gsub(/\\ge/,'>=').
+      gsub(/\\ne/,'!=').
+      gsub(/&\\colon/,':').
+      gsub(/\\to/,'->').
+      gsub(/\&/,' ').
+      gsub(/\\\\/, ' ')
 
   end
 

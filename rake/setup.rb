@@ -74,6 +74,7 @@ namespace :setup do
       puts
       puts e.question_clean_text
       puts e.question_url
+      puts
     end
   end
 end
