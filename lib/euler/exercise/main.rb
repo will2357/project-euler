@@ -11,4 +11,8 @@ class Euler::Exercise::Main
   def __FILL_ME_IN__
     nil
   end
+
+  def __SKIP__
+    "SKIP"
+  end
 end

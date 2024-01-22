@@ -15,7 +15,6 @@ Source: https://projecteuler.net/problem=1
 
   # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
   def my_solution
-    #__FILL_ME_IN__ #TODO: Revert me
-    233168.0
+    __FILL_ME_IN__
   end
 end

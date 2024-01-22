@@ -1,17 +1,19 @@
-require 'net/http'
-require 'csv'
-require 'nokogiri'
 require 'colorize'
+require 'csv'
 require 'dentaku'
-require 'pry-nav' # TODO: remove me
+require 'net/http'
+require 'nokogiri'
+require 'pry-nav'
 
 class Euler
   @@solutions = nil
   @@user_solutions = nil
   @@root_dir = nil
   @@calculator = Dentaku::Calculator.new
+  @@skip = "SKIP"
 
-  attr_reader :number, :question, :uri, :solution, :solved, :html_filename
+  #TODO: This isn't working?
+  attr_reader :number, :question, :uri, :solution, :solved, :html_filename, :skip
   attr_accessor :answer, :calculator
 
   def initialize(number)
@@ -42,6 +44,7 @@ class Euler
     self.question_tags.text
   end
 
+  # TODO: Convert/replace more Mathjax/Latex
   def question_clean_text
     self.question_plain_text.gsub(/\$/,'').gsub(/\\dots/,'...')
   end
@@ -89,11 +92,16 @@ class Euler
     a = a.to_f if a.class.ancestors.include?(Numeric)
     s = s.to_f if s.class.ancestors.include?(Numeric)
     @solved = (a == s)
-    if @solved
+    if @solved == true
       Euler.user_solutions[@number] = true
+      Euler.save_user_solutions!
+    elsif a.to_s.upcase == @@skip
+      @solved = @@skip
+      Euler.user_solutions[@number] = @@skip
       Euler.save_user_solutions!
     else
       Euler.user_solutions[@number] = false
+      Euler.save_user_solutions!
     end
     @solved
   end

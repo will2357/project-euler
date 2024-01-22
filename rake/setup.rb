@@ -1,7 +1,7 @@
 namespace :setup do
-  desc "Test namespace and filetypes"
-  task :x3 do
-    (1..100).each do |n|
+  desc "Test namespace and folder structure"
+  task :test do
+    (1..25).each do |n|
       puts n if ((n % 3) == 0)
     end
   end
@@ -9,6 +9,7 @@ namespace :setup do
   desc "Download html for all solved exercises, optionally start at 'n'"
   task :download_all, [:n] do |_, args|
     skip_n = args.n.to_i
+
     Euler.solutions.each do |n, _|
       next if (n.to_i < skip_n)
       e = Euler.new(n)
@@ -27,10 +28,9 @@ namespace :setup do
   desc "Create Euler::Exercise::NumberNNNNN.rb files, optionally starting at 'n_start' and ending at 'n_stop'"
   task :create_all, [:n_start, :n_stop] do |_, args|
     template_text = File.read("#{Euler.root_dir}/euler/exercise/number_template.rb")
-
-    #TODO: Abstract this into a block
     n_start = args.n_start.to_i
     n_stop = (args.n_stop || 999999).to_i
+
     Euler.solutions.each do |n, _|
       n = n.to_i
       next if ((n < n_start) || (n > n_stop))

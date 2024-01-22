@@ -4,6 +4,8 @@ describe Euler do
   body = "<p>If we list all the naturals $1$....</p>\n<p>Find sum ....</p>\n"
   e1 = Euler.new(1)
   s1 = 123.0
+  e3 = Euler.new(3)
+  s3 = "SKIP"
   e10 = Euler.new(10)
   s10 = 123456789012345678901234567890.1234567890 # Note precision is less, but let it pass
   e_not_local = Euler.new(10_000)
@@ -36,11 +38,14 @@ describe Euler do
       expect(e10.solved).to eq(false)
 
       e1.answer = s1
+      e3.answer = "SKIP"
       e10.answer = s10
 
-      expect(Euler).to receive(:save_user_solutions!).twice
+      expect(Euler).to receive(:save_user_solutions!).exactly(3).times
       expect(e1.check_user_answer).to eq(true)
       expect(e1.solved).to eq(true)
+      expect(e3.check_user_answer).to eq("SKIP")
+      expect(e3.solved).to eq("SKIP")
       expect(e10.check_user_answer).to eq(true)
       expect(e10.solved).to eq(true)
     end
