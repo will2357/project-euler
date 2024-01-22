@@ -12,7 +12,8 @@ Find the unique positive integer whose square has the form 1_2_3_4_5_6_7_8_9_0, 
 Source: https://projecteuler.net/problem=206
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

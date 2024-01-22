@@ -7,9 +7,7 @@ class Euler::Exercise::Number00272 < Euler::Exercise::Main
 =begin
 Problem 272:
 
-
 For a positive number n, define C(n) as the number of the integers x, for which 1 \lt x \lt n andx^3 \equiv 1 \bmod n.
-
 
 When n=91, there are 8 possible values for x, namely: 9, 16, 22, 29, 53, 74, 79, 81.
 Thus, C(91)=8.
@@ -19,7 +17,8 @@ Find the sum of the positive numbers n \le 10^{11} for which C(n)=242.
 Source: https://projecteuler.net/problem=272
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

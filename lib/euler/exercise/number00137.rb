@@ -17,7 +17,6 @@ A_F(\tfrac{1}{2})
  &= 2
 \end{align*}
 
-
 The corresponding values of x for the first five natural numbers are shown below.
 
 xA_F(x)
@@ -33,7 +32,8 @@ Find the 15th golden nugget.
 Source: https://projecteuler.net/problem=137
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -14,22 +14,20 @@ y
 x \mathbin{\text{AND}} y
 000010100111
 
-
 x
 y
 x\mathbin{\text{XOR}}y
 000011101110
 
-
 How many 6-input binary truth tables, \tau, satisfy the formula
 \tau(a, b, c, d, e, f) \mathbin{\text{AND}} \tau(b, c, d, e, f, a \mathbin{\text{XOR}} (b \mathbin{\text{AND}} c)) = 0
 for all 6-bit inputs (a, b, c, d, e, f)?
 
-
 Source: https://projecteuler.net/problem=209
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

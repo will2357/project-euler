@@ -16,11 +16,11 @@ Find \sum \operatorname{\mathbf{gcd}}(k,k^\prime) for 1 \lt k \le 5 \times 10^{1
 
 Note: \operatorname{\mathbf{gcd}}(x,y) denotes the greatest common divisor of x and y.
 
-
 Source: https://projecteuler.net/problem=484
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

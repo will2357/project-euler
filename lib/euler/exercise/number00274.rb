@@ -21,11 +21,11 @@ f(76275) = 7627 + 5 \cdot 34 = 7797: 76275 and 7797 are both divisible by 113.f(
 
 The sum of the divisibility multipliers for the primes that are coprime to 10 and less than 1000 is 39517. What is the sum of the divisibility multipliers for the primes that are coprime to 10 and less than 10^7?
 
-
 Source: https://projecteuler.net/problem=274
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

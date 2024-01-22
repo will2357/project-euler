@@ -7,7 +7,6 @@ class Euler::Exercise::Number00624 < Euler::Exercise::Main
 =begin
 Problem 624:
 
-
 An unbiased coin is tossed repeatedly until two consecutive heads are obtained. Suppose these occur on the (M-1)th and Mth toss.
 Let P(n) be the probability that M is divisible by n. For example, the outcomes HH, HTHH, and THTTHH all count towards P(2), but THH and HTTHH do not.
 
@@ -22,7 +21,8 @@ Find Q(P(10^{18}),1\,000\,000\,009).
 Source: https://projecteuler.net/problem=624
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

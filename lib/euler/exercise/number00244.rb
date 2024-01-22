@@ -12,7 +12,6 @@ A move is denoted by the uppercase initial of the direction (Left, Right, Up, Do
 
 (S), (E)
 
-
 For each path, its checksum is calculated by (pseudocode):
 
 \begin{align}
@@ -24,7 +23,6 @@ For each path, its checksum is calculated by (pseudocode):
 \end{align}
 where m_k is the ASCII value of the kth letter in the move sequence and the ASCII values for the moves are:
 
-
 L76R82U85D68
 
 For the sequence LULUR given above, the checksum would be 19761398.
@@ -33,13 +31,13 @@ find all shortest ways to reach configuration (T).
 
 (S), (T)
 
-
 What is the sum of all checksums for the paths having the minimal length?
 
 Source: https://projecteuler.net/problem=244
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

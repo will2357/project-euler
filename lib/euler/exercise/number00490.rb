@@ -38,11 +38,11 @@ S(1\,000\,000) \bmod 10^9 = 363486179
 
 Find S(10^{14}) \bmod 10^9.
 
-
 Source: https://projecteuler.net/problem=490
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

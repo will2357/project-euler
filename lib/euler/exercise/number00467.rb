@@ -10,7 +10,6 @@ Problem 467:
 An integer s is called a superinteger of another integer n if the digits of n form a subsequenceA subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. of the digits of s.
 For example, 2718281828 is a superinteger of 18828, while 314159 is not a superinteger of 151.
 
-
 Let p(n) be the nth prime number, and let c(n) be the nth composite number. For example, p(1) = 2, p(10) = 29, c(1) = 4 and c(10) = 18.
 \{p(i) : i \ge 1\} = \{2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...\}
 \{c(i) : i \ge 1\} = \{4, 6, 8, 9, 10, 12, 14, 15, 16, 18, ...\}
@@ -30,7 +29,8 @@ Find f(10\,000) \bmod 1\,000\,000\,007.
 Source: https://projecteuler.net/problem=467
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

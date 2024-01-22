@@ -18,11 +18,11 @@ It can be verified that T(1) = 11, T(2) = 494, T(4) = 33554178, T(111) \bmod 10^
 
 Find T(10^{11})\bmod 10^8.
 
-
 Source: https://projecteuler.net/problem=415
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

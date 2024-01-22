@@ -17,7 +17,8 @@ How many ambiguous numbers x=\frac p q, 0 \lt x \lt \frac 1 {100}, are there who
 Source: https://projecteuler.net/problem=198
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -3,32 +3,50 @@ require './rake/setup'
 
 task :default => [:run_all]
 
-desc "Run specific Euler problem (e.g., 'rake run[1]')"
-task :run, [:n] do |t, args|
-  e = Euler.new(args.n.to_i)
+desc "Read a specific Euler problem (e.g., 'rake read[1]')"
+task :read, [:n] do |_, args|
+  n = args.n.to_i
+  total = Euler.solutions.count
+  if (n < 1) || (n > total)
+    puts "Please enter a valid question number from 1 to #{total} (e.g., 'rake read[1]')".red
+    exit 1
+  end
+  e = Euler.new(n)
   e.read_question
 end
 
 desc "Run all Euler problems starting at first unsolved (lib/user_solutions.csv)"
 task :run_all do
-  # TODO: Add functionality to skip questions, find first unsolved, and save
-  # individual questions
+  puts "\nWelcome to the Project Euler CLI. Enter your answers at the prompt or type SKIP to proceed.\n".green
   total = Euler.solutions.count
-  answered = Euler.user_solutions.count
-  puts("Solved #{answered}/#{total}".green)
-  puts("Try question #{answered+1}? (Y/n)")
+  t_len = total.to_s.length
+  user_status = Hash.new {|h,k| h[k] = SortedSet.new}
+  Euler.user_solutions.each do |n, val|
+    user_status[val] << n
+  end
 
-  input = STDIN.gets.strip
-  do_next = true if (input.nil? || input.empty? || /^[yY]/ =~ input)
+  solved = user_status["true"].count
+  skipped = user_status["SKIP"].count
+  skipped_q = user_status["SKIP"].first
+
+  puts("Solved  #{solved.to_s.rjust(t_len, "0")}/#{total}".green)
+  puts("Skipped #{skipped.to_s.rjust(t_len, "0")}/#{total}".blue)
+  if skipped > 0
+    puts("Try skipped questions (first skipped is ##{skipped_q})? (Y/n)")
+    input = STDIN.gets.strip
+    try_skipped = true if (input.nil? || input.empty? || /^[yY]/ =~ input)
+  end
 
   Euler.solutions.each do |n, _|
-    if n.to_i > answered
+    user_solved = Euler.user_solutions[n]
+    if user_solved == "false" || user_solved.nil? || (user_solved == "SKIP" && try_skipped)
       e = Euler.new(n)
+      puts "\nProblem #{n}:\n"
       e.read_question
       solved = false
       until solved do
         puts "Enter answer: "
-        user_answer = STDIN.gets.strip.to_f
+        user_answer = STDIN.gets.strip
         correct = e.submit!(user_answer)
 
         if correct
@@ -40,5 +58,5 @@ task :run_all do
         end
       end
     end
-  end if do_next
+  end
 end

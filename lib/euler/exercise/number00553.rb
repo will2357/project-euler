@@ -14,14 +14,10 @@ Let R(n) be the set of all the non-empty subsets of Q(n).
 An element X \in R(n) is a non-empty subset of Q(n), so it is itself a set.
 From X we can construct a graph as follows:
 
-
 Each element Y \in X corresponds to a vertex and labeled with Y;
 Two vertices Y_1 and Y_2 are connected if Y_1 \cap Y_2 \ne \emptyset.
 
-
 For example, X = \{\{1\},\{1,2,3\},\{3\},\{5,6\},\{6,7\}\} results in the following graph:
-
-
 
 This graph has two connected components.
 
@@ -33,7 +29,8 @@ Find C(10^4, 10) \bmod 1\,000\,000\,007.
 Source: https://projecteuler.net/problem=553
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

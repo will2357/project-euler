@@ -24,18 +24,16 @@ A(8, 1), B(1, -8), C(-4, 7)
 A(2, 9), B(9, -2), C(-6, -7)
 A(9, 2), B(2, -9), C(-6, 7)
 
-
-
 The sum of their perimeters, rounded to four decimal places, is 291.0089.
 
 Find all such triangles with a perimeter \le 10^5.
 Enter as your answer the sum of their perimeters rounded to four decimal places.
 
-
 Source: https://projecteuler.net/problem=264
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

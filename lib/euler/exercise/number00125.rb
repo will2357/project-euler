@@ -11,11 +11,11 @@ The palindromic number 595 is interesting because it can be written as the sum o
 There are exactly eleven palindromes below one-thousand that can be written as consecutive square sums, and the sum of these palindromes is 4164. Note that 1 = 0^2 + 1^2 has not been included as this problem is concerned with the squares of positive integers.
 Find the sum of all the numbers less than 10^8 that are both palindromic and can be written as the sum of consecutive squares.
 
-
 Source: https://projecteuler.net/problem=125
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

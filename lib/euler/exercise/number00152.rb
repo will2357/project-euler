@@ -18,7 +18,8 @@ How many ways are there to write \dfrac{1}{2} as a sum of reciprocals of squares
 Source: https://projecteuler.net/problem=152
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

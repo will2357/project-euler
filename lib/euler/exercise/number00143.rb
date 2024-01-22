@@ -14,11 +14,11 @@ Torricelli was able to prove that if equilateral triangles AOB, BNC and AMC are 
 If the sum is minimised and a, b, c, p, q and r are all positive integers we shall call triangle ABC a Torricelli triangle. For example, a = 399, b = 455, c = 511 is an example of a Torricelli triangle, with p + q + r = 784.
 Find the sum of all distinct values of p + q + r \le 120000 for Torricelli triangles.
 
-
 Source: https://projecteuler.net/problem=143
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

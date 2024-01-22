@@ -20,7 +20,8 @@ Find the sum of all composite integers 1 \lt n \le 2 \times 10^{11}, for which C
 Source: https://projecteuler.net/problem=245
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

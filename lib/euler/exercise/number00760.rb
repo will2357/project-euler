@@ -16,11 +16,11 @@ For example, G(10) = 754 and G(10^2) = 583766.
 
 Find G(10^{18}). Give your answer modulo 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=760
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -13,8 +13,6 @@ For this problem, a polygon can have collinear consecutive vertices. However, a 
 
 For example, only the first of the following is a polar polygon (the kernels of the second, third, and fourth do not strictly contain the origin, and the fifth does not have a kernel at all):
 
-
-
 Notice that the first polygon has three consecutive collinear vertices.
 
 Let P(n) be the number of polar polygons such that the vertices (x, y) have integer coordinates whose absolute values are not greater than n.
@@ -25,11 +23,11 @@ For example, P(1) = 131, P(2) = 1648531, P(3) = 1099461296175 and P(343) \bmod 1
 
 Find P(7^{13}) \bmod 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=465
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

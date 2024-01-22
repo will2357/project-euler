@@ -11,9 +11,6 @@ A rectangular sheet of grid paper with integer dimensions w \times h is given. I
 When we cut the sheet along the grid lines into two pieces and rearrange those pieces without overlap, we can make new rectangles with different dimensions.
 For example, from a sheet with dimensions 9 \times 4, we can make rectangles with dimensions 18 \times 2, 12 \times 3 and 6 \times 6 by cutting and rearranging as below:
 
-
-
-
 Similarly, from a sheet with dimensions 9 \times 8, we can make rectangles with dimensions 18 \times 4 and 12 \times 6.
 
 For a pair w and h, let F(w, h) be the number of distinct rectangles that can be made from a sheet with dimensions w \times h.
@@ -29,7 +26,8 @@ Find G(10^{12}). Give your answer modulo 10^8.
 Source: https://projecteuler.net/problem=338
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

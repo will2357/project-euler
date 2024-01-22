@@ -61,11 +61,11 @@ S(4, d)
 For d = 0 to 9, the sum of all S(4, d) is 273700.
 Find the sum of all S(10, d).
 
-
 Source: https://projecteuler.net/problem=111
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

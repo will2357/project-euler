@@ -12,11 +12,11 @@ We shall define a_n to be the nth term of this sequence and insist that a number
 You are given that a_2 = 512 and a_{10} = 614656.
 Find a_{30}.
 
-
 Source: https://projecteuler.net/problem=119
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

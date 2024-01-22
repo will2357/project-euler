@@ -22,11 +22,11 @@ By finding minimal solutions in x for D = \{2, 3, 5, 6, 7\}, we obtain the follo
 Hence, by considering minimal solutions in x for D \le 7, the largest x is obtained when D=5.
 Find the value of D \le 1000 in minimal solutions of x for which the largest value of x is obtained.
 
-
 Source: https://projecteuler.net/problem=66
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

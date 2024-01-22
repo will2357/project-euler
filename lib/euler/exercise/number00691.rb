@@ -19,11 +19,11 @@ and S_n the character string c_0\ldots c_{n-1}. You are given that L(2,S_{10})=5
 
 Find the sum of non-zero L(k,S_{5000000}) for k\ge 1.
 
-
 Source: https://projecteuler.net/problem=691
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

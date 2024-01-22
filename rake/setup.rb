@@ -43,8 +43,37 @@ namespace :setup do
 
       puts("Creating #{filename}...".green)
       new_contents = template_text.gsub(/__NNNNN__/, nnnnn_txt).
-        gsub(/__N__/, n_txt).gsub(/__QUESTION__/, question_txt)
+        gsub(/__N__/, n_txt).gsub(/__QUESTION__/, question_txt).
+        gsub(/(\n){3,}/, "\n\n")
       File.open(filename, "w") {|f| f.puts new_contents }
+    end
+  end
+
+  desc "Print clean text for all solved exercises, optionally start at 'n'"
+  task :print_all, [:n_start, :n_stop] do |_, args|
+    n_start = args.n_start.to_i
+    n_stop = (args.n_stop || 999999).to_i
+
+    Euler.solutions.each do |n, _|
+      n = n.to_i
+      next if ((n < n_start) || (n > n_stop))
+      e = Euler.new(n)
+      e.read_question
+    end
+  end
+
+  desc "Print clean plain text for all solved exercises, optionally start at 'n'"
+  task :print_all_plain, [:n_start, :n_stop] do |_, args|
+    n_start = args.n_start.to_i
+    n_stop = (args.n_stop || 999999).to_i
+
+    Euler.solutions.each do |n, _|
+      n = n.to_i
+      next if ((n < n_start) || (n > n_stop))
+      e = Euler.new(n)
+      puts
+      puts e.question_clean_text
+      puts e.question_url
     end
   end
 end

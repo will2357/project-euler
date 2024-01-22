@@ -18,11 +18,11 @@ d_7d_8d_9=728 is divisible by 13
 d_8d_9d_{10}=289 is divisible by 17
 Find the sum of all 0 to 9 pandigital numbers with this property.
 
-
 Source: https://projecteuler.net/problem=43
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

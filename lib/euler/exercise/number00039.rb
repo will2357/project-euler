@@ -11,11 +11,11 @@ If p is the perimeter of a right angle triangle with integral length sides, \{a,
 \{20,48,52\}, \{24,45,51\}, \{30,40,50\}
 For which value of p \le 1000, is the number of solutions maximised?
 
-
 Source: https://projecteuler.net/problem=39
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

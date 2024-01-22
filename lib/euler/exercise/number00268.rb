@@ -11,12 +11,11 @@ It can be verified that there are 23 positive integers less than 1000 that are d
 
 Find how many positive integers less than 10^{16} are divisible by at least four distinct primes less than 100.
 
-
-
 Source: https://projecteuler.net/problem=268
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

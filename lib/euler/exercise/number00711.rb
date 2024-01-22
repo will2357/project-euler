@@ -18,11 +18,11 @@ You are also given that S(12) = 54532 and S(1234) \equiv 690421393 \pmod{1\,000\
 
 Find S(12\,345\,678). Give your answer modulo 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=711
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

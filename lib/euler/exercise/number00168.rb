@@ -12,11 +12,11 @@ It can be verified that 714285 = 5 \times 142857.
 This demonstrates an unusual property of 142857: it is a divisor of its right-rotation.
 Find the last 5 digits of the sum of all integers n, 10 \lt n \lt 10^{100}, that have this property.
 
-
 Source: https://projecteuler.net/problem=168
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -11,21 +11,15 @@ Consider the problem of building a wall out of 2 \times 1 and 3 \times 1 bricks 
 
 For example, the following 9 \times 3 wall is not acceptable due to the running crack shown in red:
 
-
-
-
 There are eight ways of forming a crack-free 9 \times 3 wall, written W(9,3) = 8.
 
 Calculate W(32,10).
 
-
-
-
-
 Source: https://projecteuler.net/problem=215
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

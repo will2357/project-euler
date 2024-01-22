@@ -22,7 +22,8 @@ Find F(10^7, 10^5). If the sum is not an integer, use .5 to denote a half. Other
 Source: https://projecteuler.net/problem=593
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -12,9 +12,6 @@ Sam and Tom are trying a game of (partially) covering a given line segment of le
 As illustrated below, the squares may be positioned in two different ways, either "straight" by placing the midpoints of two opposite sides on the line segment, or "diagonal" by placing two opposite corners on the line segment. Newly placed squares may touch other squares, but are not allowed to overlap any other square laid down before.
 The player who is able to place the last unit square onto the line segment wins.
 
-
-
-
 With Sam starting each game by placing the first square, they quickly realise that Sam can easily win every time by placing the first square in the middle of the line segment, making the game boring. 
 
 Therefore they decide to randomise Sam's first move, by first tossing a fair coin to determine whether the square will be placed straight or diagonal onto the line segment and then choosing the actual position on the line segment randomly with all possible positions being equally likely. Sam's gain of the game is defined to be 0 if he loses the game and L if he wins. Assuming optimal play of both players after Sam's initial move, you can see that Sam's expected gain, called e(L), is only dependent on the length of the line segment.
@@ -31,7 +28,8 @@ Find f(200,500), rounded to 8 digits after the decimal point.
 Source: https://projecteuler.net/problem=644
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

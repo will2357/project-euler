@@ -14,11 +14,11 @@ Perhaps less well known are longer chains. For example, starting with 12496, we 
 Since this chain returns to its starting point, it is called an amicable chain.
 Find the smallest member of the longest amicable chain with no element exceeding one million.
 
-
 Source: https://projecteuler.net/problem=95
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

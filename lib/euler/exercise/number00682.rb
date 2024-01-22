@@ -19,11 +19,11 @@ You are given f(10)=4 (the pairs are (4,9),(5,5),(6,6),(9,4)) and f(10^2)=3629.
 
 Find f(10^7) \bmod 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=682
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

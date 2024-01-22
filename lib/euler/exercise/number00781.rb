@@ -14,20 +14,17 @@ n vertices of degree 3, each of which has an incoming blue edge, a different out
 
 For example, F(4)=5 because there are 5 graphs with these properties:
 
-
-
-
 You are also given F(8)=319.
 
 Find F(50\,000). Give your answer modulo 1\,000\,000\,007.
 
 NOTE: Feynman diagrams are a way of visualising the forces between elementary particles. Vertices represent interactions. The blue edges in our diagrams represent matter particles (e.g. electrons or positrons) with the arrow representing the flow of charge. The red edges (normally wavy lines) represent the force particles (e.g. photons). Feynman diagrams are used to predict the strength of particle interactions.
 
-
 Source: https://projecteuler.net/problem=781
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

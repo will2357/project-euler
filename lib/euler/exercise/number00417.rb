@@ -25,17 +25,16 @@ Where 0.1(6) means 0.166666\cdots, and has a 1-digit recurring cycle. It can be 
 Unit fractions whose denominator has no other prime factors than 2 and/or 5 are not considered to have a recurring cycle.
 We define the length of the recurring cycle of those unit fractions as 0.
 
-
 Let L(n) denote the length of the recurring cycle of 1/n.
 You are given that \sum L(n) for 3 \leq n \leq 1\,000\,000 equals 55535191115.
-
 
 Find \sum L(n) for 3 \leq n \leq 100\,000\,000.
 
 Source: https://projecteuler.net/problem=417
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

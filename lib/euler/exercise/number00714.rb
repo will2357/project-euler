@@ -18,7 +18,8 @@ Find D(50\,000). Give your answer in scientific notation rounded to 13 significa
 Source: https://projecteuler.net/problem=714
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

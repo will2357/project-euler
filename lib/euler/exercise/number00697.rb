@@ -15,11 +15,11 @@ If we desire there to be precisely a 25% probability that X_{100}<1, then this c
 Suppose now that c is set to a different value, so that there is precisely a 25% probability that X_{10\,000\,000}<1.
 Find \log_{10} c and give your answer rounded to two places after the decimal point.
 
-
 Source: https://projecteuler.net/problem=697
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -16,11 +16,11 @@ You are also given L(10, 5) = 9964, L(10, 10) = 472400303, L(10^3, 10^3) \bmod 1
 
 Find L(10^7, 10^7)\bmod 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=560
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

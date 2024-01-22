@@ -29,7 +29,6 @@ Let Q(n, k) = \min(I_n(P)) for F(P) = k, the index of the first permutation requ
 
 For n = 4 we have:
 
-
 PI4(P)F(P)
 {1, 2, 3, 4}10Q(4, 0) = 1
 {1, 2, 4, 3}24Q(4, 4) = 2
@@ -56,16 +55,15 @@ PI4(P)F(P)
 {4, 3, 1, 2}234
 {4, 3, 2, 1}243
 
-
 Let R(k) = \min(Q(n, k)) over all n for which Q(n, k) is defined.
 
 Find R(12^{12}).
 
-
 Source: https://projecteuler.net/problem=524
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

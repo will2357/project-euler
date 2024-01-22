@@ -12,11 +12,11 @@ Given the positive integers, x, y, and z, are consecutive terms of an arithmetic
 It turns out that n = 1155 is the least value which has exactly ten solutions.
 How many values of n less than one million have exactly ten distinct solutions?
 
-
 Source: https://projecteuler.net/problem=135
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

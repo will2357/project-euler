@@ -15,8 +15,6 @@ Note that due to rule 1, some seats will surely be left unoccupied, and the maxi
 
 Here are the possible seating arrangements for N = 15:
 
-
-
 We see that if the first person chooses correctly, the 15 seats can seat up to 7 people.
 We can also see that the first person has 9 choices to maximize the number of people that may be seated.
 
@@ -26,11 +24,11 @@ Also, \sum f(N) = 83 for 1 \le N \le 20 and  \sum f(N) = 13343 for 1 \le N \le 5
 
 Find \sum f(N) for 1 \le N \le 10^{12}. Give the last 8 digits of your answer.
 
-
 Source: https://projecteuler.net/problem=472
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

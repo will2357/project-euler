@@ -30,7 +30,6 @@ The process can be summarised as follows:
 \quad \quad a_6=3, \frac 2 {\sqrt{23}-3}=\frac {2(\sqrt{23}+3)} {14}=1+\frac {\sqrt{23}-4} 7
 \quad \quad a_7=1, \frac 7 {\sqrt{23}-4}=\frac {7(\sqrt{23}+4)} {7}=8+\sqrt{23}-4
 
-
 It can be seen that the sequence is repeating. For conciseness, we use the notation \sqrt{23}=[4;(1,3,1,8)], to indicate that the block (1,3,1,8) repeats indefinitely.
 
 The first ten continued fraction representations of (irrational) square roots are:
@@ -49,16 +48,11 @@ The first ten continued fraction representations of (irrational) square roots ar
 Exactly four continued fractions, for N \le 13, have an odd period.
 How many continued fractions for N \le 10\,000 have an odd period?
 
-
-
-
-
-
-
 Source: https://projecteuler.net/problem=64
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

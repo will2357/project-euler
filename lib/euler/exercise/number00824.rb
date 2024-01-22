@@ -20,7 +20,8 @@ Find L(10^9,10^{15}) \bmod \left(10^7+19\right)^2.
 Source: https://projecteuler.net/problem=824
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

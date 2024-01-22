@@ -19,7 +19,8 @@ Find p_{15}(10^9) and give your answer rounded to 7 decimal places behind the de
 Source: https://projecteuler.net/problem=499
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -22,16 +22,11 @@ Let T(N) = \sum_{R = 3}^N \sum_{r=1}^{\lfloor \frac {R - 1} 2 \rfloor} S(R, r) b
 
 You are given:
 
-
 C(3, 1)=\{(3, 0), (-1, 2), (-1,0), (-1,-2)\}
-
 
 C(2500, 1000)=\{(2500, 0), (772, 2376), (772, -2376), (516, 1792), (516, -1792), (500, 0), (68, 504), (68, -504),
 
-
  (-1356, 1088), (-1356, -1088), (-1500, 1000), (-1500, -1000)\}
-
-
 
 Note: (-625, 0) is not an element of C(2500, 1000) because \sin(t) is not a rational number for the corresponding values of t.
 
@@ -44,7 +39,8 @@ Find T(10^6).
 Source: https://projecteuler.net/problem=450
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

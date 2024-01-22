@@ -38,11 +38,11 @@ c_k^{\infty} & \frac{6}{\pi^2} & 3.3539\times 10^{-1} & 5.3293\times 10^{-2} & 3
 \end{array}\]
 Find c_{7}^{\infty}. Give the result in scientific notation rounded to 5 significant digits, using a e to separate mantissa and exponent. E.g. if the answer were 0.000123456789, then the answer format would be 1.2346\mathrm e{-4}.
 
-
 Source: https://projecteuler.net/problem=633
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

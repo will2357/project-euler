@@ -22,11 +22,11 @@ From the start of the records, we say that any pair of users X and Y are friends
 
 The Prime Minister's phone number is 524287. After how many successful calls, not counting misdials, will 99\% of the users (including the PM) be a friend, or a friend of a friend etc., of the Prime Minister?
 
-
 Source: https://projecteuler.net/problem=186
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

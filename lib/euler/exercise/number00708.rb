@@ -15,11 +15,11 @@ Let \displaystyle S(N)=\sum_{n=1}^{N} f(n). You are given S(10^8)=9613563919.
 
 Find S(10^{14}).
 
-
 Source: https://projecteuler.net/problem=708
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -11,9 +11,6 @@ Each of the six faces on a cube has a different digit (0 to 9) written on it; th
 
 For example, the square number 64 could be formed:
 
-
-
-
 In fact, by carefully choosing the digits on both cubes it is possible to display all of the square numbers below one-hundred: 01, 04, 09, 16, 25, 36, 49, 64, and 81.
 
 For example, one way this can be achieved is by placing \{0, 5, 6, 7, 8, 9\} on one cube and \{1, 2, 3, 4, 8, 9\} on the other cube.
@@ -32,7 +29,8 @@ How many distinct arrangements of the two cubes allow for all of the square numb
 Source: https://projecteuler.net/problem=90
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

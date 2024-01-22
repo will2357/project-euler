@@ -11,11 +11,11 @@ The arithmetic sequence, 1487, 4817, 8147, in which each of the terms increases 
 There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, exhibiting this property, but there is one other 4-digit increasing sequence.
 What 12-digit number do you form by concatenating the three terms in this sequence?
 
-
 Source: https://projecteuler.net/problem=49
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

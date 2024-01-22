@@ -17,7 +17,6 @@ There are 5 grids smaller than 3 \times 2, vertical and horizontal dimensions be
 1 \times 24
 2 \times 218
 
-
 Adding those to the 37 of the 3 \times 2 grid, a total of 72 different rectangles could be situated within 3 \times 2 and smaller grids.
 
 How many different rectangles could be situated within 47 \times 43 and smaller grids?
@@ -25,7 +24,8 @@ How many different rectangles could be situated within 47 \times 43 and smaller 
 Source: https://projecteuler.net/problem=147
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

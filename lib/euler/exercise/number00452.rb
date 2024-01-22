@@ -12,11 +12,11 @@ F(10, 10) = 571.
 F(10^6, 10^6) \bmod 1\,234\,567\,891 = 252903833.
 Find F(10^9, 10^9) \bmod 1\,234\,567\,891.
 
-
 Source: https://projecteuler.net/problem=452
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

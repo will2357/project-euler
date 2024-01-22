@@ -35,15 +35,13 @@ and for B the next hundred digits:
 
 Find \sum_{n = 0}^{17} 10^n \times D_{A,B}((127+19n) \times 7^n).
 
-
-
  
-
 
 Source: https://projecteuler.net/problem=230
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

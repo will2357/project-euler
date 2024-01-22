@@ -15,11 +15,11 @@ Let T(n) be the number of all possible colourings with three colours for all f(n
 You are given that T(4) = 48 and T(10) = 17760.
 Find the last 9 digits of T(20000).
 
-
 Source: https://projecteuler.net/problem=519
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

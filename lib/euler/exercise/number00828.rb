@@ -22,7 +22,6 @@ Each available number may be used at most once.
 Only the four basic arithmetic operations are permitted: +, -, \times, \div.
 All intermediate values must be positive integers, so for example (3\div 2) is never permitted as a subexpression (even if the final answer is an integer).
 
-
 The attached file number-challenges.txt contains 200 problems, one per line in the format:
 211:2,3,4,6,7,25
 where the number before the colon is the target and the remaining comma-separated numbers are those available to be used.
@@ -31,11 +30,11 @@ Numbering the problems 1, 2, ..., 200, we let s_n be the minimum score of the so
 
 Find \displaystyle\sum_{n=1}^{200} 3^n s_n. Give your answer modulo 1005075251.
 
-
 Source: https://projecteuler.net/problem=828
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

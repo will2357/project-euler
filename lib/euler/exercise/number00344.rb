@@ -17,10 +17,6 @@ Alternatively, the player can choose to make the special move of pocketing the l
 
 The winner is the player who pockets the silver dollar.
 
-
-
-
-
 A winning configuration is an arrangement of coins on the strip where the first player can force a win no matter what the second player does.
 
 Let W(n,c) be the number of winning configurations for a strip of n squares, c worthless coins and one silver dollar.
@@ -29,12 +25,11 @@ You are given that W(10,2) = 324 and W(100,10) = 1514704946113500.
 
 Find W(1\,000\,000, 100) modulo the semiprime 1000\,036\,000\,099 (= 1\,000\,003 \cdot 1\,000\,033).
 
-
-
 Source: https://projecteuler.net/problem=344
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

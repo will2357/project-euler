@@ -29,11 +29,11 @@ n^{12} \times n^3 &= n^{15}
 We shall define m(k) to be the minimum number of multiplications to compute n^k; for example m(15) = 5.
 Find \sum\limits_{k = 1}^{200} m(k).
 
-
 Source: https://projecteuler.net/problem=122
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

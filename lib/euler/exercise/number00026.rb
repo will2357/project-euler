@@ -22,11 +22,11 @@ A unit fraction contains 1 in the numerator. The decimal representation of the u
 Where 0.1(6) means 0.166666\cdots, and has a 1-digit recurring cycle. It can be seen that 1/7 has a 6-digit recurring cycle.
 Find the value of d \lt 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part.
 
-
 Source: https://projecteuler.net/problem=26
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

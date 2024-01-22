@@ -26,11 +26,11 @@ Define S(N) as \sum R(i,j) for 1 \leq i, j \leq N.
 E.g. S(5) = 25021721.
 Find S(100), give your answer modulo 1000000033.
 
-
 Source: https://projecteuler.net/problem=434
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

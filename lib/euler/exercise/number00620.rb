@@ -17,16 +17,15 @@ Define g(c,s,p,q) to be the number of such gear arrangements for given values of
 
 Here is one such arrangement:
 
-
 Let G(n) = \sum_{s+p+q\le n} g(s+p+q,s,p,q) where the sum only includes cases with p<q, p\ge 5, and s\ge 5, all integers. You are given that G(16)=9 and G(20)=205.
 
 Find G(500).
 
-
 Source: https://projecteuler.net/problem=620
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

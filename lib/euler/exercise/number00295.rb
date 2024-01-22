@@ -17,9 +17,7 @@ C_0: x^2 + y^2 = 25
 C_1: (x + 4)^2 + (y - 4)^2 = 1
 C_2: (x - 12)^2 + (y - 4)^2 = 65
 
-
 The circles C_0, C_1 and C_2 are drawn in the picture below.
-
 
 C_0 and C_1 form a lenticular hole, as well as C_0 and C_2.
 
@@ -31,11 +29,11 @@ We can verify that L(10) = 30 and L(100) = 3442.
 
 Find L(100\,000).
 
-
 Source: https://projecteuler.net/problem=295
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -11,7 +11,6 @@ Fred the farmer arranges to have a new storage silo installed on his farm and ha
 
 Quick thinking Quentin explains that when granular materials are delivered from above a conical slope is formed and the natural angle made with the horizontal is called the angle of repose. For example if the angle of repose, \alpha = 30 degrees, and grain is delivered at the centre of the silo then a perfect cone will form towards the top of the cylinder. In the case of this silo, which has a diameter of 6\mathrm m, the amount of space wasted would be approximately 32.648388556\mathrm{m^3}. However, if grain is delivered at a point on the top which has a horizontal distance of x metres from the centre then a cone with a strangely curved and sloping base is formed. He shows Fred a picture.
 
-
    
 
 We shall let the amount of space wasted in cubic metres be given by V(x). If x = 1.114785284, which happens to have three squared decimal places, then the amount of space wasted, V(1.114785284) \approx 36. Given the range of possible solutions to this problem there is exactly one other option: V(2.511167869) \approx 49. It would be like knowing that the square is king of the silo, sitting in splendid glory on top of your grain.
@@ -23,7 +22,8 @@ If Quick thinking Quentin is to satisfy frustratingly fussy Fred the farmer's ap
 Source: https://projecteuler.net/problem=431
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -24,11 +24,11 @@ For example, \sum\limits_{N = 5}^{100} D(N) is 2438.
 
 Find \sum\limits_{N = 5}^{10000} D(N).
 
-
 Source: https://projecteuler.net/problem=183
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

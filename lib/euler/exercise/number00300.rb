@@ -16,8 +16,6 @@ Natural proteins are folded in three dimensions of course, but we will only cons
 
 The figure below shows two possible ways that our example protein could be folded (H-H contact points are shown with red dots).
 
-
-
 The folding on the left has only six H-H contact points, thus it would never occur naturally.
 On the other hand, the folding on the right has nine H-H contact points, which is optimal for this string.
 
@@ -29,7 +27,8 @@ Give your answer using as many decimal places as necessary for an exact result.
 Source: https://projecteuler.net/problem=300
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

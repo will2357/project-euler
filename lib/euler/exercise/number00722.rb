@@ -24,11 +24,11 @@ All the above values are given in scientific notation rounded to twelve digits a
 Find the value of E_{15}(1 - \frac{1}{2^{25}}).
 Give the answer in scientific notation rounded to twelve digits after the decimal point.
 
-
 Source: https://projecteuler.net/problem=722
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

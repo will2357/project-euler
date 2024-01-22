@@ -18,8 +18,6 @@ where t varies between 0 and 2\pi.
 
 For example, the images below show C_{2,5} (left) and C_{7,4} (right):
 
-
-
 Define d(a,b) = \sum (x^2 + y^2), where the sum is over all points (x, y) at which C_{a,b} crosses itself.
 
 For example, in the case of C_{2,5} illustrated above, the curve crosses itself at two points: (0.31, 0) and (-0.81, 0), rounding coordinates to two decimal places, yielding d(2, 5)=0.75. Some other examples are d(2,3)=4.5, d(7,4)=39.5, d(7,5)=52, and d(10,7)=23.25.
@@ -32,7 +30,8 @@ Find s(10^6). Give your answer in scientific notation rounded to 10 significant 
 Source: https://projecteuler.net/problem=777
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

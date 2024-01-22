@@ -17,11 +17,11 @@ By expanding this for the first four iterations, we get:
 The next three expansions are \frac {99}{70}, \frac {239}{169}, and \frac {577}{408}, but the eighth expansion, \frac {1393}{985}, is the first example where the number of digits in the numerator exceeds the number of digits in the denominator.
 In the first one-thousand expansions, how many fractions contain a numerator with more digits than the denominator?
 
-
 Source: https://projecteuler.net/problem=57
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

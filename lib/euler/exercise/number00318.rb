@@ -7,7 +7,6 @@ class Euler::Exercise::Number00318 < Euler::Exercise::Main
 =begin
 Problem 318:
 
-
 Consider the real number \sqrt 2 + \sqrt 3.
 When we calculate the even powers of \sqrt 2 + \sqrt 3
 we get:
@@ -23,44 +22,22 @@ we get:
 It looks as if the number of consecutive nines at the beginning of the fractional part of these powers is non-decreasing.
 In fact it can be proven that the fractional part of (\sqrt 2 + \sqrt 3)^{2 n} approaches 1 for large n.
 
-
 Consider all real numbers of the form \sqrt p + \sqrt q with p and q positive integers and p < q, such that the fractional part 
 of (\sqrt p + \sqrt q)^{ 2 n} approaches 1 for large n.
 
-
 Let C(p,q,n) be the number of consecutive nines at the beginning of the fractional part of (\sqrt p + \sqrt q)^{ 2 n}.
-
 
 Let N(p,q) be the minimal value of n such that C(p,q,n) \ge 2011.
 
-
 Find \displaystyle \sum N(p,q) \,\, \text{ for } p+q \le 2011.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-
-
 
 Source: https://projecteuler.net/problem=318
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

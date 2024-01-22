@@ -15,11 +15,11 @@ We call S(N) the sum of the values of a of all solutions of a^2 + b^2 = N, 0 \le
 Thus S(65) = 1 + 4 = 5.
 Find \sum S(N), for all squarefree N only divisible by primes of the form 4k+1 with 4k+1 \lt 150.
 
-
 Source: https://projecteuler.net/problem=273
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -7,7 +7,6 @@ class Euler::Exercise::Number00437 < Euler::Exercise::Main
 =begin
 Problem 437:
 
-
 When we calculate 8^n modulo 11 for n=0 to 9 we get: 1, 8, 9, 6, 4, 10, 3, 2, 5, 7.
 As we see all possible values from 1 to 10 occur. So 8 is a primitive root of 11.
 But there is more:
@@ -28,12 +27,11 @@ Not every prime has a Fibonacci primitive root.
 There are 323 primes less than 10000 with one or more Fibonacci primitive roots and the sum of these primes is 1480491.
 Find the sum of the primes less than 100\,000\,000 with at least one Fibonacci primitive root.
 
-
-
 Source: https://projecteuler.net/problem=437
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

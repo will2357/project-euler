@@ -13,14 +13,13 @@ Let f(m, n) denote the number of ways you can have toppings on the pizza with m 
 
 Thus, for instance, f(2,1) = 1, f(2, 2) = f(3, 1) = 2 and f(3, 2) = 16. f(3, 2) is shown below:
 
-
-
 Find the sum of all f(m, n) such that f(m, n) \le 10^{15}.
 
 Source: https://projecteuler.net/problem=281
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

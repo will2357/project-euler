@@ -18,11 +18,11 @@ Reminder: When connecting capacitors C_1, C_2 etc in parallel, the total capacit
 
 whereas when connecting them in series, the overall capacitance is given by: \dfrac{1}{C_T} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + \cdots
 
-
 Source: https://projecteuler.net/problem=155
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

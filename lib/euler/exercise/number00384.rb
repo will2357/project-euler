@@ -56,7 +56,6 @@ s(n)
 3
 4
 
-
 The sequence s(n) has the remarkable property that all elements are positive and every positive integer k occurs exactly k times.
 
 Define g(t,c), with 1 \le c \le t, as the index in s(n) for which t occurs for the c'th time in s(n).
@@ -73,7 +72,8 @@ Find \sum GF(t) for 2 \le t \le 45.
 Source: https://projecteuler.net/problem=384
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

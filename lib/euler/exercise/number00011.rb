@@ -32,11 +32,11 @@ In the 20 \times 20 grid below, four numbers along a diagonal line have been mar
 The product of these numbers is 26 \times 63 \times 78 \times 14 = 1788696.
 What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20 \times 20 grid?
 
-
 Source: https://projecteuler.net/problem=11
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

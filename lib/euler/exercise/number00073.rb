@@ -13,12 +13,11 @@ If we list the set of reduced proper fractions for d \le 8 in ascending order of
 It can be seen that there are 3 fractions between \dfrac 1 3 and \dfrac 1 2.
 How many fractions lie between \dfrac 1 3 and \dfrac 1 2 in the sorted set of reduced proper fractions for d \le 12\,000?
 
-
-
 Source: https://projecteuler.net/problem=73
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -27,11 +27,11 @@ F_{12} &= 144
 The 12th term, F_{12}, is the first term to contain three digits.
 What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
 
-
 Source: https://projecteuler.net/problem=25
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

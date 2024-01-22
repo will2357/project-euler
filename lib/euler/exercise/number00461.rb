@@ -15,11 +15,11 @@ Let g(n)=a^2 + b^2 + c^2 + d^2 for a, b, c, d that minimize the error: |f_n(a) +
 You are given g(200)=6^2+75^2+89^2+226^2=64658.
 Find g(10000).
 
-
 Source: https://projecteuler.net/problem=461
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

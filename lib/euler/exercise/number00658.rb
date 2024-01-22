@@ -19,11 +19,11 @@ For example, S(4,4)=406, S(8,8)=27902680 and S (10,100) \equiv 983602076 \bmod 1
 
 Find S(10^7,10^{12}). Give your answer modulo 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=658
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

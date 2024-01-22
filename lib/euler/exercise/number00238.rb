@@ -42,7 +42,8 @@ Find \sum p(k), for 0 \lt k \le 2 \times 10^{15}.
 Source: https://projecteuler.net/problem=238
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

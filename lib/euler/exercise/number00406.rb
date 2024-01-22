@@ -35,7 +35,8 @@ Let F_k be the Fibonacci numbers: F_k=F_{k-1}+F_{k-2} with base cases F_1=F_2= 1
 Source: https://projecteuler.net/problem=406
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -18,7 +18,8 @@ What is \sum (S_{10000}(10^{12}) \bmod p) over all primes p between 2 \cdot 10^9
 Source: https://projecteuler.net/problem=487
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

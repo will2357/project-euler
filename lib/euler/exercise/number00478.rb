@@ -15,7 +15,6 @@ For example, say we have three mixtures with ratios (3 : 0 : 2), (3: 6 : 11) and
 (10 \cdot \tfrac 3 5 + 20 \cdot \tfrac 3 {20} + 30 \cdot \tfrac 3 {10} : 10 \cdot \tfrac 0 5 + 20 \cdot \tfrac 6 {20} + 30 \cdot \tfrac 3 {10} : 10 \cdot \tfrac 2 5 + 20 \cdot \tfrac {11} {20} + 30 \cdot \tfrac 4 {10})
 = (18 : 15 : 27) = (6 : 5 : 9)
 
-
 However, with the same three mixtures, it is impossible to form the ratio (3 : 2 : 1), since the amount of B is always less than the amount of C.
 
 Let n be a positive integer. Suppose that for every triple of integers (a, b, c) with 0 \le a, b, c \le n and \gcd(a, b, c) = 1, we have a mixture with ratio (a : b : c). Let M(n) be the set of all such mixtures.
@@ -32,11 +31,11 @@ Let E(n) be the number of subsets of M(n) which can produce the mixture with rat
 We can verify that E(1) = 103, E(2) = 520447, E(10) \bmod 11^8 = 82608406 and E(500) \bmod 11^8 = 13801403.
 Find E(10\,000\,000) \bmod 11^8.
 
-
 Source: https://projecteuler.net/problem=478
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

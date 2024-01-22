@@ -24,11 +24,11 @@ It is not difficult to prove that EVERY starting number will eventually get stuc
 Starting with 69 produces a chain of five non-repeating terms, but the longest non-repeating chain with a starting number below one million is sixty terms.
 How many chains, with a starting number below one million, contain exactly sixty non-repeating terms?
 
-
 Source: https://projecteuler.net/problem=74
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

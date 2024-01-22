@@ -17,7 +17,8 @@ How many numbers t(n) are prime for n \le 50\,000\,000?
 Source: https://projecteuler.net/problem=216
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

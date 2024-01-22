@@ -11,11 +11,11 @@ It is well known that if the square root of a natural number is not an integer, 
 The square root of two is 1.41421356237309504880\cdots, and the digital sum of the first one hundred decimal digits is 475.
 For the first one hundred natural numbers, find the total of the digital sums of the first one hundred decimal digits for all the irrational square roots.
 
-
 Source: https://projecteuler.net/problem=80
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

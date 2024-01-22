@@ -14,11 +14,11 @@ Initially there are no holidays. Let E(D) be the expected number of Emperors to 
 You are given E(2)=1, E(5)=31/6, E(365)\approx 1174.3501.
 Find E(10000). Give your answer rounded to 4 digits after the decimal point.
 
-
 Source: https://projecteuler.net/problem=645
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -13,11 +13,11 @@ We will call such numbers, n, progressive.
 Some progressive numbers, such as 9 and 10404 = 102^2, happen to also be perfect squares. The sum of all progressive perfect squares below one hundred thousand is 124657.
 Find the sum of all progressive perfect squares below one trillion (10^{12}).
 
-
 Source: https://projecteuler.net/problem=141
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

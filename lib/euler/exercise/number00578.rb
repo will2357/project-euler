@@ -19,11 +19,11 @@ You are given C(10^6) = 922052.
 
 Find C(10^{13}).
 
-
 Source: https://projecteuler.net/problem=578
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

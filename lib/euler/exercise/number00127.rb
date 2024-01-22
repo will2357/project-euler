@@ -21,11 +21,11 @@ For example, (5, 27, 32) is an abc-hit, because:
 It turns out that abc-hits are quite rare and there are only thirty-one abc-hits for c \lt 1000, with \sum c = 12523.
 Find \sum c for c \lt 120000.
 
-
 Source: https://projecteuler.net/problem=127
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

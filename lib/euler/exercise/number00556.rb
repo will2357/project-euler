@@ -34,11 +34,11 @@ You are given f(10^2) = 54, f(10^4) = 5218 and f(10^8) = 52126906.
 
 Find f(10^{14}).
 
-
 Source: https://projecteuler.net/problem=556
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

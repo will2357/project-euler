@@ -17,8 +17,6 @@ Amazingly, this works for any piece size, even if the cutting angle is an irrati
 
 Now, Adam tries something different: he alternates cutting pieces of size x=\frac{360}{9} degrees, y=\frac{360}{10} degrees and z=\frac{360 }{\sqrt{11}} degrees. The first piece he cuts has size x and he flips it. The second has size y and he flips it. The third has size z and he flips it. He repeats this with pieces of size x, y and z in that order until all the icing is back on top, and discovers he needs 60 flips altogether.
 
-
-
 Let F(a, b, c) be the minimum number of piece flips needed to get all the icing back on top for pieces of size x=\frac{360}{a} degrees, y=\frac{360}{b} degrees and z=\frac{360}{\sqrt{c}} degrees.
 Let G(n) = \sum_{9 \le a \lt b \lt c \le n} F(a,b,c), for integers a, b and c.
 
@@ -30,7 +28,8 @@ Find G(53).
 Source: https://projecteuler.net/problem=566
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

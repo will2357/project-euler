@@ -29,11 +29,11 @@ Consider the following tenth degree polynomial generating function:
 u_n = 1 - n + n^2 - n^3 + n^4 - n^5 + n^6 - n^7 + n^8 - n^9 + n^{10}.
 Find the sum of FITs for the BOPs.
 
-
 Source: https://projecteuler.net/problem=101
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

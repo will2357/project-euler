@@ -28,7 +28,8 @@ Find the only value of \theta for which the generated sequence starts at a_1=2 a
 Source: https://projecteuler.net/problem=751
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -11,10 +11,8 @@ A group of p people decide to sit down at a round table and play a lottery-ticke
 
 An arbitrary person is chosen to be the first player. Going around the table, each player has only one of two options:
 
-
 The player can choose to scratch the ticket and reveal its worth to everyone at the table.
 If the player's ticket is unscratched, then the player may trade it with a previous player's scratched ticket, and then leaves the game with that ticket. The previous player then scratches the newly-acquired ticket and reveals its worth to everyone at the table.
-
 
 The game ends once all tickets have been scratched. All players still remaining at the table must leave with their currently-held tickets.
 
@@ -31,7 +29,8 @@ Find S_{20}(10^{14}) and write the answer in scientific notation rounded to 10 s
 Source: https://projecteuler.net/problem=444
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

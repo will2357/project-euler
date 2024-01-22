@@ -15,11 +15,11 @@ Find the sum of all products whose multiplicand/multiplier/product identity can 
 
 HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
 
-
 Source: https://projecteuler.net/problem=32
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

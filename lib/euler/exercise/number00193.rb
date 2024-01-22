@@ -11,11 +11,11 @@ A positive integer n is called squarefree, if no square of a prime divides n, th
 
 How many squarefree numbers are there below 2^{50}?
 
-
 Source: https://projecteuler.net/problem=193
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

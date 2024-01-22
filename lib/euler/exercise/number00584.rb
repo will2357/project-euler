@@ -13,13 +13,11 @@ If people on your planet were to enter a very large room one by one, what will b
 
 The description further instructed them to enter the answer into the device and send the drone into space again. Startled by this turn of events, the Wimwians consulted their best mathematicians. Each year on Wimwi has 10 days and the mathematicians assumed equally likely birthdays and ignored leap years (leap years in Wimwi have 11 days), and found 5.78688636 to be the required answer. As such, the Wimwians entered this answer and sent the drone back into space.
 
-
 After traveling light years away, the drone then landed on planet Joka. The same events ensued except this time, the numbers in the device had changed due to some unknown technical issues. The description read:
 
 If people on your planet were to enter a very large room one by one, what will be the expected number of people in the room when you first find 3 people with Birthdays within 7 days from each other.
 
 With a 100-day year on the planet, the Jokars (inhabitants of Joka) found the answer to be 8.48967364 (rounded to 8 decimal places because the device allowed only 8 places after the decimal point) assuming equally likely birthdays. They too entered the answer into the device and launched the drone into space again.
-
 
 This time the drone landed on planet Earth. As before the numbers in the problem description had changed. It read:
 
@@ -30,7 +28,8 @@ What would be the answer (rounded to eight places after the decimal point) the p
 Source: https://projecteuler.net/problem=584
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

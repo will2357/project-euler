@@ -16,16 +16,9 @@ A Chow is three tiles of the same suit and consecutive numbers
 A Pung is three identical tiles (same suit and same number)
 A Pair is two identical tiles (same suit and same number)
 
-
 For example, here is a winning hand with n=9, s=3, t=4, consisting in this case of two Chows, two Pungs, and one Pair:
 
-
-
-
 Note that sometimes the same collection of tiles can be represented as t Triples and one Pair in more than one way. This only counts as one winning hand. For example, this is considered to be the same winning hand as above, because it consists of the same tiles:
-
-
-
 
 Let w(n, s, t) be the number of distinct winning hands formed of t Triples and one Pair, where there are s suits available and tiles are numbered up to n.
 
@@ -33,11 +26,11 @@ For example, with a single suit and tiles numbered up to 4, we have w(4, 1, 1) =
 
 Find w(10^8, 10^8, 30). Give your answer modulo 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=696
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -18,11 +18,11 @@ It is possible to write five as a sum in exactly six different ways:
 \end{align}
 How many different ways can one hundred be written as a sum of at least two positive integers?
 
-
 Source: https://projecteuler.net/problem=76
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

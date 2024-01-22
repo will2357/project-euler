@@ -11,11 +11,11 @@ Euler's totient function, \phi(n) [sometimes called the phi function], is used t
 Interestingly, \phi(87109)=79180, and it can be seen that 87109 is a permutation of 79180.
 Find the value of n, 1 \lt n \lt 10^7, for which \phi(n) is a permutation of n and the ratio n/\phi(n) produces a minimum.
 
-
 Source: https://projecteuler.net/problem=70
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

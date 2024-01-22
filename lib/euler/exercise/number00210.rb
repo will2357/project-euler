@@ -14,14 +14,11 @@ So, for example, N(4)=24 and N(8)=100.
 
 What is N(1\,000\,000\,000)?
 
-
-
-
-
 Source: https://projecteuler.net/problem=210
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

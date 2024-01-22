@@ -20,8 +20,6 @@ Unfortunately, Bob is also drunk. On a given move, Bob will either stumble one s
 
 The following animation depicts a side-view of a sample game for n = 3, k = 7, a = 2, b = 4, and c = 6:
 
-
-
 Let E(n, k, a, b, c) be the expected number of squares that Bob travels during a single optimally-played game. A game is played optimally if the number of disk-pickups is minimized.
 
 Interestingly enough, the result is always an integer. For example, E(2,5,1,3,5) = 60 and E(3,20,4,9,17) = 2358.
@@ -31,7 +29,8 @@ Find the last nine digits of \sum_{1\le n \le 10000} E(n,10^n,3^n,6^n,9^n).
 Source: https://projecteuler.net/problem=497
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

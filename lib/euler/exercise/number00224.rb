@@ -11,11 +11,11 @@ Let us call an integer sided triangle with sides a \le b \le c barely obtuse if 
 
 How many barely obtuse triangles are there with perimeter \le 75\,000\,000?
 
-
 Source: https://projecteuler.net/problem=224
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

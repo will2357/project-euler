@@ -23,11 +23,11 @@ Louise thinks about it for a second, and objects: "That's not fair".
 What is the probability that the second player wins?
 Give your answer rounded to 10 places behind the decimal point in the form 0.abcdefghij.
 
-
 Source: https://projecteuler.net/problem=436
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

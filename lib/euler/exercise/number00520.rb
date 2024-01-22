@@ -20,7 +20,8 @@ Find (\sum_{1 \le u \le 39} Q(2^u)) \bmod 1\,000\,000\,123.
 Source: https://projecteuler.net/problem=520
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

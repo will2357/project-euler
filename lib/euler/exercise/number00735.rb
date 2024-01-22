@@ -13,11 +13,11 @@ Let \displaystyle F(N) = \sum_{n=1}^N f(n). You are given F(15)=63, and F(1000)=
 
 Find F(10^{12}).
 
-
 Source: https://projecteuler.net/problem=735
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

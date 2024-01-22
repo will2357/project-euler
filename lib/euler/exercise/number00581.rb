@@ -7,16 +7,15 @@ class Euler::Exercise::Number00581 < Euler::Exercise::Main
 =begin
 Problem 581:
 
-
 A number is p-smooth if it has no prime factors larger than p.
 Let T be the sequence of triangular numbers, i.e. T(n)=n(n+1)/2.
 Find the sum of all indices n such that T(n) is 47-smooth.
 
-
 Source: https://projecteuler.net/problem=581
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

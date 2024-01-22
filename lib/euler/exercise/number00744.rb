@@ -20,13 +20,13 @@ f(6,\frac{1}{2})=0.2851562500,
 f(10,\frac{3}{7})=0.2330040743,
 f(10^4,0.3)=0.2857499982.
 
-
 Find f(10^{11},0.4999). Give your answer rounded to 10 places behind the decimal point.
 
 Source: https://projecteuler.net/problem=744
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

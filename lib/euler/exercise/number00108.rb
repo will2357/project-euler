@@ -16,14 +16,14 @@ For n = 4 there are exactly three distinct solutions:
 \dfrac{1}{8} + \dfrac{1}{8} &= \dfrac{1}{4}
 \end{align}
 
-
 What is the least value of n for which the number of distinct solutions exceeds one-thousand?
 NOTE: This problem is an easier version of Problem 110; it is strongly advised that you solve this one first.
 
 Source: https://projecteuler.net/problem=108
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

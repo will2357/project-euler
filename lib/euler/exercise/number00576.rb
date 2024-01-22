@@ -7,7 +7,6 @@ class Euler::Exercise::Number00576 < Euler::Exercise::Main
 =begin
 Problem 576:
 
-
 A bouncing point moves counterclockwise along a circle with circumference 1 with jumps of constant length l \lt 1, until it hits a gap of length g \lt 1, that is placed in a distance d counterclockwise from the starting point. The gap does not include the starting point, that is g+d \lt 1.
 
 Let S(l,g,d) be the sum of the length of all jumps, until the point falls into the gap. It can be shown that S(l,g,d) is finite for any irrational jump size l, regardless of the values of g and d.
@@ -24,7 +23,8 @@ Find M(100, 0.00002), rounded to 4 decimal places.
 Source: https://projecteuler.net/problem=576
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

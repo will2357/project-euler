@@ -16,13 +16,6 @@ We further call a pythagorean quadrilateral a pythagorean lattice grid quadrilat
 Let f(r) be the number of different pythagorean lattice grid quadrilaterals for which the radius of the circumcircle is r. For example f(1)=1, f(\sqrt 2)=1, f(\sqrt 5)=38 and f(5)=167. 
 Two of the pythagorean lattice grid  quadrilaterals with r=\sqrt 5 are illustrated below:
 
-
-
-
-
-
-
-
 Let \displaystyle S(n)=\sum_{d \mid n} f(\sqrt d). For example, S(325)=S(5^2 \cdot 13)=f(1)+f(\sqrt 5)+f(5)+f(\sqrt {13})+f(\sqrt{65})+f(5\sqrt{13})=2370 and S(1105)=S(5\cdot 13 \cdot 17)=5535.
 
 Find S(1411033124176203125)=S(5^6 \cdot 13^3 \cdot 17^2 \cdot 29 \cdot 37 \cdot 41 \cdot 53 \cdot 61).
@@ -30,7 +23,8 @@ Find S(1411033124176203125)=S(5^6 \cdot 13^3 \cdot 17^2 \cdot 29 \cdot 37 \cdot 
 Source: https://projecteuler.net/problem=723
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

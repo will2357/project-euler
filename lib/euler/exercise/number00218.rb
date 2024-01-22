@@ -20,14 +20,13 @@ We will call a right angled triangle super-perfect if
 -it is a perfect right angled triangle and
 -its area is a multiple of the perfect numbers 6 and 28.
 
-
 How many perfect right-angled triangles with c \le 10^{16} exist that are not super-perfect?
-
 
 Source: https://projecteuler.net/problem=218
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

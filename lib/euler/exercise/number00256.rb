@@ -17,8 +17,6 @@ We use the term 'size' to denote the floor surface area of the room, and — wit
 There is one rule to follow when laying out tatami: there must be no points where corners of four different mats meet.
 For example, consider the two arrangements below for a 4 \times 4 room:
 
-
-
 The arrangement on the left is acceptable, whereas the one on the right is not: a red "X" in the middle, marks the point where four tatami meet.
 
 Because of this rule, certain even-sized rooms cannot be covered with tatami: we call them tatami-free rooms.
@@ -34,12 +32,11 @@ In fact, s = 1320 is the smallest room-size s for which T(s) = 5.
 
 Find the smallest room-size s for which T(s) = 200.
 
-
-
 Source: https://projecteuler.net/problem=256
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

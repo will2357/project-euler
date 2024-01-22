@@ -11,8 +11,6 @@ N \times N disks are placed on a square game board. Each disk has a black side a
 
 At each turn, you may choose a disk and flip all the disks in the same row and the same column as this disk: thus 2 \times N - 1 disks are flipped. The game ends when all disks show their white side. The following example shows a game on a 5 \times 5 board.
 
-
-
 It can be proven that 3 is the minimal number of turns to finish this game.
 
 The bottom left disk on the N \times N board has coordinates (0,0);
@@ -26,11 +24,11 @@ We have shown that T(5)=3. You are also given that T(10)=29 and T(1\,000)=395253
 
 Find \sum \limits_{i = 3}^{31} T(2^i - i).
 
-
 Source: https://projecteuler.net/problem=331
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

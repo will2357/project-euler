@@ -11,11 +11,11 @@ The first known prime found to exceed one million digits was discovered in 1999,
 However, in 2004 there was found a massive non-Mersenne prime which contains 2\,357\,207 digits: 28433 \times 2^{7830457} + 1.
 Find the last ten digits of this prime number.
 
-
 Source: https://projecteuler.net/problem=97
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

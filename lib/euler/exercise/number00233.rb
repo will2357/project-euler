@@ -15,7 +15,8 @@ What is the sum of all positive integers N \le 10^{11} such that f(N) = 420?
 Source: https://projecteuler.net/problem=233
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

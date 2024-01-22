@@ -25,11 +25,11 @@ You are given C(0) = 30621295449583788, C(1) =  30613048345941659, C(10) = 21808
 
 Find C(10^5).
 
-
 Source: https://projecteuler.net/problem=790
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

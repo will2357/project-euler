@@ -18,7 +18,8 @@ NOTE: This problem is a much more difficult version of Problem 108 and as it is 
 Source: https://projecteuler.net/problem=110
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

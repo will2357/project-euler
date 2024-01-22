@@ -13,11 +13,11 @@ If we list the set of reduced proper fractions for d \le 8 in ascending order of
 It can be seen that there are 21 elements in this set.
 How many elements would be contained in the set of reduced proper fractions for d \le 1\,000\,000?
 
-
 Source: https://projecteuler.net/problem=72
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -14,11 +14,11 @@ A pandigital number  contains every decimal digit from 0 to 9 at least once.
 
 How many pandigital step numbers less than 10^{40} are there?
 
-
 Source: https://projecteuler.net/problem=178
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

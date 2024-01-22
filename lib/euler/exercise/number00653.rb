@@ -25,11 +25,11 @@ Let d(L, N, j) be the distance in millimetres that the jth marble travels before
 
 Find d(1\,000\,000\,000, 1\,000\,001, 500\,001).
 
-
 Source: https://projecteuler.net/problem=653
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

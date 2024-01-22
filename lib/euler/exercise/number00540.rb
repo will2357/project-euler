@@ -7,21 +7,19 @@ class Euler::Exercise::Number00540 < Euler::Exercise::Main
 =begin
 Problem 540:
 
-
 A Pythagorean triple consists of three positive integers a, b and c satisfying a^2+b^2=c^2.
 The triple is called primitive if a, b and c are relatively prime.
 Let P(n) be the number of primitive Pythagorean triples with a \lt b \lt c \le n.
 For example P(20) = 3, since there are three triples: (3,4,5), (5,12,13) and (8,15,17).
 
-
 You are given that P(10^6) = 159139.
 Find P(3141592653589793).
-
 
 Source: https://projecteuler.net/problem=540
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

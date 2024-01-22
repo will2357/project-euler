@@ -9,7 +9,6 @@ Problem 149:
 
 Looking at the table below, it is easy to verify that the maximum possible sum of adjacent numbers in any direction (horizontal, vertical, diagonal or anti-diagonal) is 16 (= 8 + 7 + 1).
 
-
 -25329-6513273-18-48
 
 Now, let us repeat the search, but on a much larger scale:
@@ -28,7 +27,8 @@ Finally, find the greatest sum of (any number of) adjacent entries in any direct
 Source: https://projecteuler.net/problem=149
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

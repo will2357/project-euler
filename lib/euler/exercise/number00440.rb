@@ -9,12 +9,7 @@ Problem 440:
 
 We want to tile a board of length n and height 1 completely, with either 1 \times 2 blocks or 1 \times 1 blocks with a single decimal digit on top:
 
-
-
 For example, here are some of the ways to tile a board of length n = 8:
-
-
-
 
 Let T(n) be the number of ways to tile a board of length n as described above.
 
@@ -31,7 +26,8 @@ Find S(2000) \bmod 987\,898\,789.
 Source: https://projecteuler.net/problem=440
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

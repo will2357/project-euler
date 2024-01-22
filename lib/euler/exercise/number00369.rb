@@ -13,11 +13,11 @@ Let f(n) be the number of ways to choose n cards with a 4 card subset that is a 
 
 Find \sum f(n) for 4 \le n \le 13.
 
-
 Source: https://projecteuler.net/problem=369
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

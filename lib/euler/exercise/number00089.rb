@@ -20,11 +20,11 @@ The 11K text file, roman.txt (right click and 'Save Link/Target As...'), contain
 Find the number of characters saved by writing each of these in their minimal form.
 Note: You can assume that all the Roman numerals in the file contain no more than four consecutive identical units.
 
-
 Source: https://projecteuler.net/problem=89
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

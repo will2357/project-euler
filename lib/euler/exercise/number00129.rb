@@ -12,11 +12,11 @@ Given that n is a positive integer and \gcd(n, 10) = 1, it can be shown that the
 The least value of n for which A(n) first exceeds ten is 17.
 Find the least value of n for which A(n) first exceeds one-million.
 
-
 Source: https://projecteuler.net/problem=129
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

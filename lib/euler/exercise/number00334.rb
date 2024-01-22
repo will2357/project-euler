@@ -13,10 +13,7 @@ A child plays a game, which allows only one kind of move: removing two beans fro
 
 For example, consider two adjacent bowls containing 2 and 3 beans respectively, all other bowls being empty. The following eight moves will finish the game:
 
-
-
 You are given the following sequences:
-
 
 \def\htmltext#1{\style{font-family:inherit;}{\text{#1}}}
 
@@ -30,8 +27,6 @@ You are given the following sequences:
 \qquad b_i &= (t_i\bmod2^{11}) + 1.\cr
 \end{align}
 
-
-
 The first two terms of the last sequence are b_1 = 289 and b_2 = 145.
 If we start with b_1 and b_2 beans in two adjacent bowls, 3419100 moves would be required to finish the game.
 
@@ -40,7 +35,8 @@ Consider now 1500 adjacent bowls containing b_1, b_2, \ldots, b_{1500} beans res
 Source: https://projecteuler.net/problem=334
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

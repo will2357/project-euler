@@ -17,10 +17,6 @@ Each rope is straight between its two end points, and lies above all previous ro
 After step n, we get a loop of red ropes, and a loop of blue ropes.
 Sometimes the two loops can be separated, as in the left figure below; sometimes they are "linked", hence cannot be separated, as in the middle and right figures below.
 
-
-
-
-
 Let P(n) be the probability that the two loops can be separated.
 For example, P(3) = \frac{11}{20} and P(5) \approx 0.4304177690.
 
@@ -29,7 +25,8 @@ Find P(80), rounded to 10 digits after decimal point.
 Source: https://projecteuler.net/problem=807
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

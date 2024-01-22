@@ -6,15 +6,15 @@ require 'nokogiri'
 require 'pry-nav'
 
 class Euler
+  SKIP = "SKIP"
+
   @@solutions = nil
   @@user_solutions = nil
   @@root_dir = nil
   @@calculator = Dentaku::Calculator.new
-  @@skip = "SKIP"
 
-  #TODO: This isn't working?
-  attr_reader :number, :question, :uri, :solution, :solved, :html_filename, :skip
-  attr_accessor :answer, :calculator
+  attr_reader :number, :question, :uri, :solution, :solved, :html_filename
+  attr_accessor :answer
 
   def initialize(number)
     @number = number.to_s
@@ -46,7 +46,15 @@ class Euler
 
   # TODO: Convert/replace more Mathjax/Latex
   def question_clean_text
-    self.question_plain_text.gsub(/\$/,'').gsub(/\\dots/,'...')
+    #subs = {// => ''}
+    self.question_plain_text.
+      gsub(/\$/,'').
+      gsub(/\\dots/,'...').
+      gsub(/\\times/,'x').
+      gsub(/\\,/,',').
+      gsub(/\\lt/,'<').
+      gsub(/\\gt/,'>')
+
   end
 
   def question_url
@@ -94,15 +102,13 @@ class Euler
     @solved = (a == s)
     if @solved == true
       Euler.user_solutions[@number] = true
-      Euler.save_user_solutions!
-    elsif a.to_s.upcase == @@skip
-      @solved = @@skip
-      Euler.user_solutions[@number] = @@skip
-      Euler.save_user_solutions!
+    elsif a.to_s.upcase == SKIP
+      @solved = SKIP
+      Euler.user_solutions[@number] = SKIP
     else
       Euler.user_solutions[@number] = false
-      Euler.save_user_solutions!
     end
+    Euler.save_user_solutions!
     @solved
   end
 

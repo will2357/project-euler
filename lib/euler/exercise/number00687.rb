@@ -16,7 +16,8 @@ Find the probability that the number of perfect ranks is prime. Give your answer
 Source: https://projecteuler.net/problem=687
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

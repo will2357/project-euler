@@ -19,11 +19,11 @@ Let F(n) = \sum_{k=0}^n a_k. You are given that F(10) = 53964 and F(50) \equiv 8
 
 Find F(1000), and give your answer modulo 10^9.
 
-
 Source: https://projecteuler.net/problem=648
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

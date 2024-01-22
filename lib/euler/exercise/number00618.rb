@@ -21,11 +21,11 @@ Other examples: S(1) = 0, S(2) = 2, S(3) = 3, S(5) = 5 + 6 = 11.
 The Fibonacci sequence is F_1 = 1, F_2 = 1, F_3 = 2, F_4 = 3, F_5 = 5, ....
 Find the last nine digits of \displaystyle\sum_{k=2}^{24}S(F_k).
 
-
 Source: https://projecteuler.net/problem=618
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -17,11 +17,11 @@ For example, S_1(10)=41, S_1(100)=3512, S_2(100)=208090, S_1(10000)=35252550 and
 
 Find \displaystyle \sum_{k=1}^{50} S_k(10^{12}) \bmod 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=639
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

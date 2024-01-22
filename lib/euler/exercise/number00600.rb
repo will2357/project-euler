@@ -13,17 +13,13 @@ Hexagons are distinct if and only if they are not congruent.
 You are given H(6) = 1, H(12) = 10, H(100) = 31248.
 Find H(55106).
 
-
-
 Equiangular hexagons with perimeter not exceeding 12
-
-
-
 
 Source: https://projecteuler.net/problem=600
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

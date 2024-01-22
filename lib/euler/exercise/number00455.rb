@@ -17,11 +17,11 @@ f(157) = 743757 (157^{743757} = \cdots 567\underline{000743757})
 \sum_{2 \le n \le 10^3} f(n) = 442530011399
 Find \sum_{2 \le n \le 10^6}f(n).
 
-
 Source: https://projecteuler.net/problem=455
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

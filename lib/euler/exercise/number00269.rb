@@ -19,11 +19,11 @@ It can be verified that Z(100\,000) is 14696.
 
 What is Z(10^{16})?
 
-
 Source: https://projecteuler.net/problem=269
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

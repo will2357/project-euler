@@ -14,11 +14,11 @@ Clearly there cannot be any bouncy numbers below one-hundred, but just over half
 Surprisingly, bouncy numbers become more and more common and by the time we reach 21780 the proportion of bouncy numbers is equal to 90\%.
 Find the least number for which the proportion of bouncy numbers is exactly 99\%.
 
-
 Source: https://projecteuler.net/problem=112
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

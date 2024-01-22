@@ -19,11 +19,11 @@ It was proposed by Christian Goldbach that every odd composite number can be wri
 It turns out that the conjecture was false.
 What is the smallest odd composite that cannot be written as the sum of a prime and twice a square?
 
-
 Source: https://projecteuler.net/problem=46
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -19,11 +19,11 @@ Hence for 2 \le k \le 6, the sum of all the minimal product-sum numbers is 4+6+8
 In fact, as the complete set of minimal product-sum numbers for 2 \le k \le 12 is \{4, 6, 8, 12, 15, 16\}, the sum is 61.
 What is the sum of all the minimal product-sum numbers for 2 \le k \le 12000?
 
-
 Source: https://projecteuler.net/problem=88
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

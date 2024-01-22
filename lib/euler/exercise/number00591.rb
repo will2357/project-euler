@@ -20,7 +20,8 @@ I_2(BQA_2(\pi,10^{13}))=-6188084046055Find the sum of |I_d(BQA_d(\pi,10^{13}))| 
 Source: https://projecteuler.net/problem=591
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

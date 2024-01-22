@@ -13,11 +13,11 @@ We shall call a positive integer that is neither increasing nor decreasing a "bo
 As n increases, the proportion of bouncy numbers below n increases such that there are only 12951 numbers below one-million that are not bouncy and only 277032 non-bouncy numbers below 10^{10}.
 How many numbers below a googol (10^{100}) are not bouncy?
 
-
 Source: https://projecteuler.net/problem=113
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

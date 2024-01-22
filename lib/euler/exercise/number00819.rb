@@ -15,11 +15,11 @@ You are given E(3) = 27/7 and E(5) = 468125/60701 \approx 7.711982 rounded to 6 
 
 Find E(10^3). Give the answer rounded to 6 digits after the decimal place.
 
-
 Source: https://projecteuler.net/problem=819
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

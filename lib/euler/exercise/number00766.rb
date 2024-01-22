@@ -13,20 +13,13 @@ A reachable configuration is any arrangement of the pieces that can be achieved 
 
 Two configurations are identical if the same shape pieces occupy the same position in the grid. So in the case below the red squares are indistinguishable. For this example the number of reachable configurations is 208.
 
-
-
-
 Find the number of reachable configurations for the puzzle below. Note that the red L-shaped pieces are considered different from the green L-shaped pieces.
-
-
-
-
-
 
 Source: https://projecteuler.net/problem=766
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

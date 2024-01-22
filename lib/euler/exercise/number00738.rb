@@ -17,11 +17,11 @@ You are given that D(10, 10) = 153 and D(100, 100) = 35384.
 
 Find D(10^{10},10^{10}) giving your answer modulo 1\,000\,000\,007.
 
-
 Source: https://projecteuler.net/problem=738
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

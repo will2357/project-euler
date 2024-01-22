@@ -19,22 +19,19 @@ Here are base i-1 representations of a few Gaussian integers:
 -5+0i \to 11001101
 0+0i \to 0
 
-
 Remarkably, every Gaussian integer has a unique base i-1 representation!
-
 
 Define f(a + bi) as the number of 1s in the unique base i-1 representation of a + bi. For example, f(11+24i) = 9 and f(24-11i) = 7.
 
-
 Define B(L) as the sum of f(a + bi) for all integers a, b such that |a| \le L and |b| \le L. For example, B(500) = 10795060.
-
 
 Find B(10^{15}) \bmod 1\,000\,000\,007.
 
 Source: https://projecteuler.net/problem=508
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

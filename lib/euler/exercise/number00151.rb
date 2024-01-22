@@ -15,8 +15,6 @@ The supervisor proceeds to cut it in half, thus getting two sheets of size A2. T
 
 All the unused sheets are placed back in the envelope.
 
-
-
 At the beginning of each subsequent batch, the supervisor takes from the envelope one sheet of paper at random. If it is of size A5, then it is used. If it is larger, then the 'cut-in-half' procedure is repeated until an A5-size sheet is obtained, and any remaining sheets are always placed back in the envelope.
 
 Excluding the first and last batch of the week, find the expected number of times (during each week) that the supervisor finds a single sheet of paper in the envelope.
@@ -26,7 +24,8 @@ Give your answer rounded to six decimal places using the format x.xxxxxx .
 Source: https://projecteuler.net/problem=151
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -21,11 +21,11 @@ For example, M(3, 1) = 4, M(3, 2) = 40, and M(9, 3) = 450304.
 
 What are the last 9 digits of M(10\,000\,019, 100)?
 
-
 Source: https://projecteuler.net/problem=649
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

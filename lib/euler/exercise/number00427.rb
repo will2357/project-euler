@@ -19,12 +19,11 @@ For example, f(3) = 45, f(7) = 1403689 and f(11) = 481496895121.
 
 Find f(7\,500\,000) \bmod 1\,000\,000\,009.
 
-
-
 Source: https://projecteuler.net/problem=427
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

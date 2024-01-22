@@ -17,7 +17,6 @@ For example, the cube with the vertices
 In contrast, the cube with the vertices
 (0, 2, 2), (1, 4, 4), (2, 0, 3), (2, 3, 0), (3, 2, 5), (3, 5, 2), (4, 1, 1), (5, 3, 3) contains only 40 lattice points (20 points on the surface and 20 points within the cube), although both cubes have the same side length 3.
 
-
 Let S(n) be the sum of the lattice points contained in the different lattice cubes in which the coordinates of all vertices range between (and including) 0 and n.
 
 For example, S(1)=8, S(2)=91, S(4)=1878, S(5)=5832, S(10)=387003 and S(50)=29948928129.
@@ -27,7 +26,8 @@ Find S(5000) \bmod 10^9.
 Source: https://projecteuler.net/problem=579
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

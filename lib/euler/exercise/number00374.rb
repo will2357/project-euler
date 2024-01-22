@@ -28,11 +28,11 @@ It can be verified that
 Find \sum f(n) \cdot m(n) for 1 \le n \le 10^{14}.
 Give your answer modulo 982451653, the 50 millionth prime.
 
-
 Source: https://projecteuler.net/problem=374
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

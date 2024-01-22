@@ -16,7 +16,8 @@ Find the average of F(n) where n ranges through all odd prime less than a millio
 Source: https://projecteuler.net/problem=826
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

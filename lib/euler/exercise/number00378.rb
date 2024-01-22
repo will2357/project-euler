@@ -18,11 +18,11 @@ Tr(20) = 14, Tr(100) = 5772, and Tr(1000) = 11174776.
 Find Tr(60 000 000). 
 Give the last 18 digits of your answer.
 
-
 Source: https://projecteuler.net/problem=378
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

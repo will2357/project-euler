@@ -14,21 +14,16 @@ We'll call ABCD a biclinic integral quadrilateral if AO = CO \le BO = DO.
 For example, the following quadrilateral is a biclinic integral quadrilateral:
 AB = 19, BC = 29, CD = 37, AD = 43, BD = 48 and AO = CO = 23.
 
-
-
-
 Let B(N) be the number of distinct biclinic integral quadrilaterals ABCD that satisfy AB^2+BC^2+CD^2+AD^2 \le N.
 We can verify that B(10\,000) = 49 and B(1\,000\,000) = 38239.
 
-
 Find B(10\,000\,000\,000).
-
-
 
 Source: https://projecteuler.net/problem=311
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

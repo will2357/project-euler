@@ -15,11 +15,7 @@ Now we define a hollow square lamina of size n to be an integer sized square wit
 
 For n = 3 there exists only one hollow square lamina:
 
-
-
 For n = 4 you can find 9 distinct hollow square laminae, allowing shapes to reappear in rotated or mirrored form:
-
-
 
 Let S(n) be the sum of the expected distance between two points chosen randomly within each of the possible hollow square laminae of size n. The two points have to lie within the area left after removing the inner rectangle, i.e. the gray-colored areas in the illustrations above.
 
@@ -30,7 +26,8 @@ Find S(40) rounded to four digits after the decimal point.
 Source: https://projecteuler.net/problem=547
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

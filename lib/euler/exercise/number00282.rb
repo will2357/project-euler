@@ -11,23 +11,21 @@ Problem 282:
 
 For non-negative integers m, n, the Ackermann function A(m,n) is defined as follows:
 
-
 A(m,n) = \cases{
 n+1 &\htmltext{ if  }m=0\cr
 A(m-1,1) &\htmltext{ if   }m>0 \htmltext{  and  } n=0\cr
 A(m-1,A(m,n-1)) &\htmltext{ if   }m>0 \htmltext{  and  } n>0\cr
 }
 
-
 For example A(1,0) = 2, A(2,2) = 7 and A(3,4) = 125.
-
 
 Find \displaystyle\sum_{n=0}^6 A(n,n) and give your answer mod 14^8.
 
 Source: https://projecteuler.net/problem=282
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

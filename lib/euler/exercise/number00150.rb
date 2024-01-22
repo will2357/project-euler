@@ -10,7 +10,6 @@ Problem 150:
 In a triangular array of positive and negative integers, we wish to find a sub-triangle such that the sum of the numbers it contains is the smallest possible.
 In the example below, it can be easily verified that the marked triangle satisfies this condition having a sum of −42.
 
-
 We wish to make such a triangular array with one thousand rows, so we generate 500500 pseudo-random numbers sk in the range ±219, using a type of random number generator (known as a Linear Congruential Generator) as follows:
 t := 0
 
@@ -37,7 +36,8 @@ Find the smallest possible sub-triangle sum.
 Source: https://projecteuler.net/problem=150
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

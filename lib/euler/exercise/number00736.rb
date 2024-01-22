@@ -22,11 +22,11 @@ For example,
 This is a path to equality for (45,90) and is of length 10 with final value 1476. There is no path to equality of (45,90) with smaller length.
 Find the unique path to equality for (45,90) with smallest odd length. Enter the final value as your answer.
 
-
 Source: https://projecteuler.net/problem=736
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

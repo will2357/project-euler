@@ -13,11 +13,11 @@ You are given that C(40,55) =15, and C(1000,1234) \bmod 1000000007=975523611.
 
 Find C(1000000,1234567) \bmod 1000000007.
 
-
 Source: https://projecteuler.net/problem=619
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

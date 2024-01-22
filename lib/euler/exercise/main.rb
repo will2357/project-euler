@@ -13,6 +13,6 @@ class Euler::Exercise::Main
   end
 
   def __SKIP__
-    "SKIP"
+    Euler::SKIP
   end
 end

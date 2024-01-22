@@ -15,10 +15,6 @@ When the n knights all try to sit down around a circular table with n chairs, th
 
 Suppose there are n=7 knights and 7 chairs at the roundtable, in addition to the king’s throne. After some trial and error, they come up with the following seating arrangement (K represents the king):
 
-
-
-
-
 Notice that the sums 4+1, 1+7, 7+6, 6+2, 2+3, and 3+5 are all Fibonacci numbers, as required. It should also be mentioned that the king always prefers an arrangement where the knight to the his left has a smaller number than the knight to his right. With this additional rule, the above arrangement is unique for n=7, and the knight sitting in the 3rd chair from the king’s left is knight number 7.
 
 Later, several new knights are appointed to the Order, giving 34 knights and chairs in addition to the king's throne. The knights eventually determine that there is a unique seating arrangement for n=34 satisfying the above rules, and this time knight number 30 is sitting in the 3rd chair from the king's left.
@@ -27,11 +23,11 @@ Now suppose there are n=99\,194\,853\,094\,755\,497 knights and the same number 
 
 Find the number of the knight sitting in the 10\,000\,000\,000\,000\,000th chair from the king’s left.
 
-
 Source: https://projecteuler.net/problem=669
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -18,17 +18,14 @@ These strings can be interpreted as instructions to a computer graphics program,
 
 Then Dn is an exotic drawing known as the Heighway Dragon of order n.  For example, D10 is shown below; counting each "F" as one step, the highlighted spot at (18,16) is the position reached after 500 steps.
 
-
-
-
 What is the position of the cursor after 1012 steps in D50 ?
 Give your answer in the form x,y with no spaces.
-
 
 Source: https://projecteuler.net/problem=220
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

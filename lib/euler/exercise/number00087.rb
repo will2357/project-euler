@@ -16,11 +16,11 @@ The smallest number expressible as the sum of a prime square, prime cube, and pr
 \end{align}
 How many numbers below fifty million can be expressed as the sum of a prime square, prime cube, and prime fourth power?
 
-
 Source: https://projecteuler.net/problem=87
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

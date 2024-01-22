@@ -21,11 +21,11 @@ In contrast, some lengths of wire, like \pu{20 cm}, cannot be bent to form an in
 
 Given that L is the length of the wire, for how many values of L \le 1\,500\,000 can exactly one integer sided right angle triangle be formed?
 
-
 Source: https://projecteuler.net/problem=75
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

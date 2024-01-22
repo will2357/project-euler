@@ -11,11 +11,11 @@ Using names.txt (right click and 'Save Link/Target As...'), a 46K text file cont
 For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is the 938th name in the list. So, COLIN would obtain a score of 938 \times 53 = 49714.
 What is the total of all the name scores in the file?
 
-
 Source: https://projecteuler.net/problem=22
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -11,7 +11,6 @@ For an integer n, we define the square prime factors of n to be the primes whose
 
 Let C_k(N) be the number of integers between 1 and N inclusive with exactly k square prime factors. You are given some values of C_k(N) in the table below.
 
-
 \[\begin{array}{|c|c|c|c|c|c|c|}
 \hline
 
@@ -35,14 +34,13 @@ N=10^8 & 60792694 & 33539196 & 5329747 & 329028 & 9257 & 78 \
 \hline
 \end{array}\]
 
-
 Find the product of all non-zero C_k(10^{16}). Give the result reduced modulo 1\,000\,000\,007.
-
 
 Source: https://projecteuler.net/problem=632
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

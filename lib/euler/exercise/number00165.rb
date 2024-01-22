@@ -29,11 +29,11 @@ To create each line segment, we use four consecutive numbers t_n. That is, the f
 The first four numbers computed according to the above generator should be: 27, 144, 12 and 232. The first segment would thus be (27,144) to (12,232).
 How many distinct true intersection points are found among the 5000 line segments?
 
-
 Source: https://projecteuler.net/problem=165
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

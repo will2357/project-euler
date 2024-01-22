@@ -15,8 +15,6 @@ the next bits contains the description of the top left, top right, bottom left a
 "10" indicates that the current region contains only black pixels;
 "11" indicates that the current region contains only white pixels.Consider the following 4 \times 4 image (colored marks denote places where a split can occur):
 
-
-
 This image can be described by several sequences, for example :
 "001010101001011111011010101010", of length 30, or
 "0100101111101110", of length 16, which is the minimal sequence for this image.
@@ -29,7 +27,8 @@ otherwise the pixel is white.What is the length of the minimal sequence describi
 Source: https://projecteuler.net/problem=287
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

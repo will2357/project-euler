@@ -7,7 +7,6 @@ class Euler::Exercise::Number00421 < Euler::Exercise::Main
 =begin
 Problem 421:
 
-
 Numbers of the form n^{15}+1 are composite for every integer n \gt 1.
 For positive integers n and m let s(n,m) be defined as the sum of the distinct prime factors of n^{15}+1 not exceeding m.
 
@@ -18,12 +17,11 @@ Also 10^{15}+1 = 7 \times 11 \times 13 \times 211 \times 241 \times 2161 \times 
 So s(10,100) = 31 and s(10,1000) = 483.
 Find \sum s(n,10^8) for 1 \leq n \leq 10^{11}.
 
-
-
 Source: https://projecteuler.net/problem=421
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

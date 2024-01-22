@@ -12,12 +12,11 @@ Define the polynomials \{F_n, n \ge 0\} as F_n(x) = \displaystyle{\sum_{i=0}^n f
 For example, F_7(x) = x + x^2 + 2x^3 + 3x^4 + 5x^5 + 8x^6 + 13x^7, and F_7(11) = 268\,357\,683.
 Let n = 10^{15}. Find the sum \displaystyle{\sum_{x=0}^{100} F_n(x)} and give your answer modulo 1\,307\,674\,368\,000 \ (= 15!).
 
-
-
 Source: https://projecteuler.net/problem=435
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

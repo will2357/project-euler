@@ -20,7 +20,6 @@ The students agree to this change, under the conditions that:
 Any two students currently sharing a room will still be roommates.
 Any two students currently sharing a desk will still be desk partners.
 
-
 In the example above, there are only two ways to satisfy these conditions: either take no action (\sigma is the identity permutation), or reverse the order of the students.
 
 With n=6, for the bed pairing (1,2)(3,4)(5,6) and the desk pairing (3,6)(4,5), there are 8 permutations which satisfy the conditions. One example is the mapping (1, 2, 3, 4, 5, 6) \mapsto (1, 2, 5, 6, 3, 4).
@@ -38,11 +37,11 @@ The downloadable text files beds.txt and desks.txt contain pairings for n=500. E
 
 With these pairings, find the number of permutations that satisfy the students' conditions. Give your answer modulo 999\,999\,937.
 
-
 Source: https://projecteuler.net/problem=673
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

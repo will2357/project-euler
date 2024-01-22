@@ -47,11 +47,11 @@ W(115246685191495243) = euler
 P(euler) = 115246685191495243Find W(P(legionary) + P(calorimeters) - P(annihilate) + P(orchestrated) - P(fluttering)).
 Give your answer using lowercase characters (no punctuation or space).
 
-
 Source: https://projecteuler.net/problem=480
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

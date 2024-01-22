@@ -12,7 +12,8 @@ Find the number of integers 1 \lt n \lt 10^7, for which n and n + 1 have the sam
 Source: https://projecteuler.net/problem=179
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -44,11 +44,11 @@ Each polygonal type: triangle (P_{3,127}=8128), square (P_{4,91}=8281), and pent
 This is the only set of 4-digit numbers with this property.
 Find the sum of the only ordered set of six cyclic 4-digit numbers for which each polygonal type: triangle, square, pentagonal, hexagonal, heptagonal, and octagonal, is represented by a different number in the set.
 
-
 Source: https://projecteuler.net/problem=61
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

@@ -12,7 +12,8 @@ Find the smallest x + y + z with integers x \gt y \gt z \gt 0 such that x + y, x
 Source: https://projecteuler.net/problem=142
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

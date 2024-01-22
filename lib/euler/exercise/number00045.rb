@@ -26,11 +26,11 @@ H_n=n(2n - 1)
 It can be verified that T_{285} = P_{165} = H_{143} = 40755.
 Find the next triangle number that is also pentagonal and hexagonal.
 
-
 Source: https://projecteuler.net/problem=45
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

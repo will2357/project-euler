@@ -110,11 +110,11 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 20849603980134001723930671666823555245252804609722
 53503534226472524250874054075591789781264330331690
 
-
 Source: https://projecteuler.net/problem=13
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

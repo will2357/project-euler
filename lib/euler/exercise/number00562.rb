@@ -17,11 +17,11 @@ You are given T(10) \approx 97.26729 and T(100) \approx 9157.64707.
 
 Find T(10^7). Give your answer rounded to the nearest integer.
 
-
 Source: https://projecteuler.net/problem=562
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

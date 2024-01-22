@@ -19,11 +19,11 @@ Note that concatenations of the digits, like 12 + 34, are not allowed.
 Using the set, \{1, 2, 3, 4\}, it is possible to obtain thirty-one different target numbers of which 36 is the maximum, and each of the numbers 1 to 28 can be obtained before encountering the first non-expressible number.
 Find the set of four distinct digits, a \lt b \lt c \lt d, for which the longest set of consecutive positive integers, 1 to n, can be obtained, giving your answer as a string: abcd.
 
-
 Source: https://projecteuler.net/problem=93
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

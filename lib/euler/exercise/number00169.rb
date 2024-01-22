@@ -18,11 +18,11 @@ For example, f(10)=5 since there are five different ways to express 10:
 \end{align}
 What is f(10^{25})?
 
-
 Source: https://projecteuler.net/problem=169
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

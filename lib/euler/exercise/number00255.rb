@@ -32,11 +32,11 @@ Give your answer rounded to 10 decimal places.
 
 Note: The symbols \lfloor x \rfloor and \lceil x \rceil represent the floor functionthe largest integer not greater than x and ceiling functionthe smallest integer not less than x respectively.
 
-
 Source: https://projecteuler.net/problem=255
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

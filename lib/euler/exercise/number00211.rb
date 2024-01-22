@@ -14,7 +14,8 @@ Find the sum of all n, 0 \lt n \lt 64\,000\,000 such that \sigma_2(n) is a perfe
 Source: https://projecteuler.net/problem=211
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

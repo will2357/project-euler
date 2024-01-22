@@ -21,15 +21,13 @@ The Minkowski sum, S + T, of two shapes S and T is the result of adding every po
 
 For example, the sum of S_3 and S_4 is the six-sided shape shown in pink below:
 
-
-
-
 How many sides does S_{1864} + S_{1865} + \cdots + S_{1909} have?
 
 Source: https://projecteuler.net/problem=228
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

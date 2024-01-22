@@ -19,11 +19,11 @@ The least simultaneous value of A and B is 23, attained for x=3,y=1,z=t=0. On th
 
 Find the sum of least simultaneous values of all \mathcal{I}-expressions pairs made of distinct expressions from file I-expressions.txt (pairs (e_1,e_2) and (e_2,e_1) are considered to be identical). Give the last nine digits of the result as the answer.
 
-
 Source: https://projecteuler.net/problem=674
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end

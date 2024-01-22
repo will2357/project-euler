@@ -19,11 +19,11 @@ and f(13, 144, 233) \equiv 907081451 \pmod{1\,000\,000\,007}.
 
 Find \sum_{i=4}^{40} f(i, F_{i-1}, F_i) \bmod 1\,000\,000\,007, where F_i are the Fibonacci numbers starting at F_0=0, F_1=1.
 
-
 Source: https://projecteuler.net/problem=651
 =end
 
-  # Change '__FILL_ME_IN__' so that 'my_solution' returns the correct answer.
+  # Change __FILL_ME_IN__ so that 'my_solution' returns the correct answer.
+  # Use __SKIP__ or "SKIP" to move on to the next question.
   def my_solution
     __FILL_ME_IN__
   end
