@@ -1,5 +1,6 @@
 require './lib/euler/exercise/main'
 require 'set'
+require 'benchmark'
 
 class IncorrectEulerAnswer < StandardError;end
 
@@ -16,12 +17,16 @@ class Euler::Exercise::Runner
       n = f[/\d{5}/]
       klass = Object.const_get("Euler::Exercise::Number#{n}")
       k = klass.new
-      user_answer = k.my_solution
+      user_answer = nil
+      time = Benchmark.measure do
+        user_answer = k.my_solution
+      end
+      t = time.real.round(5).to_s.ljust(7,"0")
       correct = k.euler.submit!(user_answer)
       if correct
-        puts "Project Euler exercise #{n} answered correctly: #{user_answer}!".green
+        puts "Project Euler exercise #{n} answered correctly (#{user_answer}) in #{t}s!".green
       else
-        puts "\n\nError on exercise #{n}: #{user_answer} appears to be incorrect.".red
+        puts "Project Euler exercise #{n} answered incorrectly (#{user_answer}) in #{t}s!".red
         k.euler.read_question
         raise IncorrectEulerAnswer.new("\n\nEdit the 'my_solution' method in '#{f}'\n")
       end
