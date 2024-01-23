@@ -28,10 +28,17 @@ gem install bundler
 bundle install
 ```
 
-To solve the questions in Ruby, run
+To solve the questions in Ruby:
 ```
 bundle exec ruby run.rb
 ```
+
+Or even better, install [entr](https://github.com/eradman/entr):
+```
+ls lib/euler/exercise/*.rb | entr bundle exec ruby run.rb
+
+```
+
 This will run the exercises in order. Ensure that the predefined `my_solution`
 function returns the correct solution in any fashion you'd like to get
 the correct answer.

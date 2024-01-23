@@ -26,7 +26,7 @@ class Euler::Exercise::Runner
       end
     end
   rescue => err
-    #err.set_backtrace([])
+    err.set_backtrace([])
     raise err
   end
 end
