@@ -16,11 +16,12 @@ class Euler::Exercise::Runner
       n = f[/\d{5}/]
       klass = Object.const_get("Euler::Exercise::Number#{n}")
       k = klass.new
-      correct = k.euler.submit!(k.my_solution)
+      user_answer = k.my_solution
+      correct = k.euler.submit!(user_answer)
       if correct
-        puts "Project Euler exercise #{n} answered correctly!".green
+        puts "Project Euler exercise #{n} answered correctly: #{user_answer}!".green
       else
-        puts "\n\nError on exercise #{n}:".red
+        puts "\n\nError on exercise #{n}: #{user_answer} appears to be incorrect.".red
         k.euler.read_question
         raise IncorrectEulerAnswer.new("\n\nEdit the 'my_solution' method in '#{f}'\n")
       end
